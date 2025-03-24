@@ -1,0 +1,89 @@
+.vp-doc a[href^="https://www.youtube.com/"]:before {
+    content: '';
+    background-image: url(/svg/youtube.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    margin-right: 4px;
+}
+
+.vp-doc a[href^="https://www.bilibili.com/"]:before {
+    content: '';
+    background-image: url(/svg/bilibili.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+.vp-doc a[href^="https://www.planetminecraft.com/"]:before {
+    content: '';
+    background-image: url(/svg/pmc.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+.vp-doc a[href^="https://pan.quark.cn/"]:before {
+    content: '';
+    background-image: url(/svg/quark.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+.vp-doc a[href^="https://ifdian.net/"]:before {
+    content: '';
+    background-image: url(/svg/aifadian.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+.vp-doc a[href^="https://www.curseforge.com/"]:before {
+    content: '';
+    background-image: url(/svg/curseforge.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+.vp-doc a[href^="https://modrinth.com/"]:before {
+    content: '';
+    background-image: url(/svg/modrinth.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
