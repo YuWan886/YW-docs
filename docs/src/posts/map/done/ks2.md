@@ -16,7 +16,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/ks2/ks2_cover.jpg
 - 原址：[Killstreak](https://www.brickmasonsmc.com/creations/maps/killstreak)
 - 版本：1.21
 - 类型：`多人` `PVP`
-- 汉化：[下崽]()
+- 汉化：[下崽](https://pan.quark.cn/s/d6333596c7d6)
 
 ## 介绍
 
