@@ -1,8 +1,7 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from 'vue';
+import { h, onUnmounted } from 'vue';
 import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
-import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 import { inBrowser, useData, useRoute } from 'vitepress';
 import googleAnalytics from 'vitepress-plugin-google-analytics'
@@ -33,6 +32,8 @@ import TagPage from './components/TagPage.vue'
 import MinecraftServer from './components/MinecraftServer.vue'
 import busuanzi from 'busuanzi.pure.js'
 import DataPanel from "./components/DataPanel.vue"
+import { bindFancybox, destroyFancybox } from './utils/ImgViewer'
+import Gallery from './components/Gallery.vue'
 
 // 不蒜子
 function reloadBusuanzi() {
@@ -84,10 +85,6 @@ const setupGiscus = (frontmatter, route) => {
 };
 
 // 图片放大
-const initZoom = () => {
-  mediumZoom('.main img', { background: 'var(--vp-c-bg)' });
-};
-
 
 export default {
   extends: DefaultTheme,
@@ -112,6 +109,7 @@ export default {
     app.component("Archive", Archive);
     app.component("TagPage", TagPage);
     app.component('MinecraftServer', MinecraftServer);
+    app.component('Gallery', Gallery);
     app.use(NolebaseGitChangelogPlugin);
     app.use(NolebaseInlineLinkPreviewPlugin);
     googleAnalytics({
@@ -121,9 +119,11 @@ export default {
     if (inBrowser) {
       NProgress.configure({ showSpinner: false })
       router.onBeforeRouteChange = () => {
+        destroyFancybox() // 销毁图片查看器
         NProgress.start() // 开始进度条
       }
       router.onAfterRouteChange = () => {
+        bindFancybox() // 绑定图片查看器
         busuanzi.fetch() // 不蒜子
         NProgress.done() // 停止进度条
       }
@@ -131,26 +131,25 @@ export default {
 
   },
   setup() {
-    const route = useRoute();
-    const { frontmatter } = useData();
+      const route = useRoute();
+      const { frontmatter } = useData();
+      let stopWatch: () => void;
 
-    // Initialize medium-zoom on mount and route change
-    onMounted(async () => {
-      initZoom();
-      reloadBusuanzi(); // 初始加载时重新加载不蒜子  
-    });
-
-    watch(
-      () => route.path,
-      () => {
-        nextTick(() => {
-          initZoom();
-          reloadBusuanzi(); // 每次路由切换时重新加载不蒜子
-        });
-      }
-    );
-
-    // giscus评论区
-    setupGiscus(frontmatter, route);
-  },
+      onMounted(async () => {
+        bindFancybox();
+        reloadBusuanzi(); // 初始加载时重新加载不蒜子
+      });
+      onUnmounted(() => {
+        try {
+          destroyFancybox();
+          if (stopWatch) {
+            stopWatch();
+          }
+        } catch (error) {
+          console.error('资源清理失败:', error);
+        }
+      });
+      // giscus评论区
+      setupGiscus(frontmatter, route);
+    },
 } satisfies Theme
