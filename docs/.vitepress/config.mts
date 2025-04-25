@@ -49,33 +49,46 @@ export default defineConfig({
     },
     image: { lazyLoading: true }
   },
-  // 搜索
+  //
   vite: {
+    build: {
+      chunkSizeWarningLimit: 1000, // 调整chunk大小警告阈值
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            // 移除manualChunks配置，依赖动态导入优化代码分割
+          }
+        }
+      }
+    },
     optimizeDeps: {
       exclude: [
-        '@nolebase/*',
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
         'vitepress',
+        '@nolebase/ui',
+        '@nolebase/vitepress-plugin-inline-link-preview/client'
       ],
     },
     ssr: {
       noExternal: [
-        '@nolebase/*',
-      ],
+        '@nolebase/vitepress-plugin-enhanced-readabilities',
+        '@nolebase/ui',
+        '@nolebase/vitepress-plugin-inline-link-preview'
+      ]
     },
-    plugins: [pagefindPlugin({
-      customSearchQuery: chineseSearchOptimize, btnPlaceholder: '搜索', placeholder: '搜索文档', emptyText: '空空如也', heading: '共: {{searchResult}} 条结果', excludeSelector: ['img', 'a.header-anchor']
-    }),
-    GitChangelog({
-      // 仓库链接
-      repoURL: () => 'https://github.com/fishlanding/YW-docs',
-    }),
-    GitChangelogMarkdownSection({
-      exclude: (id) => /index\.md/.test(id),
-    }),
-    compression({
-      "threshold": 500
-    }),
-    ],
+    plugins: [
+      pagefindPlugin({
+        customSearchQuery: chineseSearchOptimize, btnPlaceholder: '搜索', placeholder: '搜索文档', emptyText: '空空如也', heading: '共: {{searchResult}} 条结果', excludeSelector: ['img', 'a.header-anchor']
+      }),
+      GitChangelog({
+        repoURL: () => 'https://github.com/fishlanding/YW-docs',
+        maxGitLogCount: 200,
+      }),
+      GitChangelogMarkdownSection(),
+      compression({
+        "threshold": 500
+      }),
+    ]
   },
   sitemap: {
     hostname: 'https://docs.yw-games.top',

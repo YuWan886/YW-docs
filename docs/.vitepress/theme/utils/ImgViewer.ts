@@ -1,66 +1,29 @@
 import { nextTick } from 'vue'
 import '@fancyapps/ui/dist/fancybox/fancybox.css'
 
-// fancybox 图片缩放样式
-const fancyboxStyle = document.createElement('style')
-fancyboxStyle.textContent = `
-.fancybox__container {
-  --fancybox-bg: none;
-  .fancybox__toolbar {
-    --f-button-bg: none;
-    --f-button-hover-bg: rgba(var(--vp-c-bg-reverse-rgb), .1);
-    --f-button-color: rgba(var(--vp-c-bg-reverse-rgb), 1);
-    --f-button-hover-color: rgba(var(--vp-c-bg-reverse-rgb), 1);
-    --f-button-svg-disabled-opacity: 0.2;
-    background: rgba(var(--vp-c-bg-rgb), 0.2);
-  }
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(var(--vp-c-bg-rgb), 0.5);
-    opacity: 0.96;
-    backdrop-filter: blur(10px);
-  }
-}
-.fancybox-image {
-  object-fit: initial;
-}
-.is-classic .is-nav-selected .f-thumbs__slide__button::after {
-  border-color: var(--weiz-primary-color);
-}
-.fancybox__caption {
-  color: var(--vp-c-text-1);
-}
-`
-document.head.appendChild(fancyboxStyle)
-
 // 查找图像之前最近的标题
-const findNearestHeading = (imgElement) => {
+const findNearestHeading = (imgElement: HTMLImageElement) => {
   // 获取 img 元素的父节点
-  let currentElement = imgElement
+  let currentElement: HTMLElement | null = imgElement
   // 循环向上查找
   while (currentElement && currentElement !== document.body) {
     // 在当前元素的前一个兄弟节点中查找 h1-h6 标签
     let previousSibling = currentElement.previousElementSibling
     while (previousSibling) {
       if (previousSibling.tagName.match(/^H[1-6]$/)) {
-        return previousSibling.textContent.replace(/\u200B/g, '').trim() // 返回找到的标题内容
+        return previousSibling.textContent?.replace(/\u200B/g, '').trim() || '' // 返回找到的标题内容
       }
       previousSibling = previousSibling.previousElementSibling
     }
     // 如果没有找到，继续向上一级父节点查找
-    currentElement = currentElement.parentElement
+    currentElement = currentElement?.parentElement ?? null
   }
 
   return ''
 }
 
-export const bindFancybox = () => {
-  nextTick(async() => {
+export const bindFancybox = (): void => {
+  nextTick(async () => {
     const { Fancybox } = await import('@fancyapps/ui') // 采用这种导入方式是为了避免构建报错问题
     const imgs = document.querySelectorAll('.vp-doc img')
     imgs.forEach((img) => {

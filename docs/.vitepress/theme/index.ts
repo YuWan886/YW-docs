@@ -1,9 +1,9 @@
 // https://vitepress.dev/guide/custom-theme
-import { h, onUnmounted } from 'vue';
-import type { Theme } from 'vitepress';
+import { h, onUnmounted, Ref, onMounted, watch, nextTick, defineAsyncComponent } from 'vue';
+import type { Route, Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
-import { onMounted, watch, nextTick } from 'vue';
 import { inBrowser, useData, useRoute } from 'vitepress';
+import { bindFancybox, destroyFancybox } from './utils/ImgViewer';
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 
 // giscus评论
@@ -23,17 +23,18 @@ import ywcomponents from './components/ywcomponents.vue';
 import Linkcard from './components/Linkcard.vue';
 import ArticleMetadata from './components/ArticleMetadata.vue';
 import HomeUnderline from './components/HomeUnderline.vue';
-import xgplayer from './components/xgplayer.vue';
 import backtotop from './components/backtotop.vue';
 import confetti from "./components/confetti.vue"
 import AgreementModal from './components/AgreementModal.vue'
-import Archive from './components/Archive.vue'
-import TagPage from './components/TagPage.vue'
-import MinecraftServer from './components/MinecraftServer.vue'
-import busuanzi from 'busuanzi.pure.js'
 import DataPanel from "./components/DataPanel.vue"
-import { bindFancybox, destroyFancybox } from './utils/ImgViewer'
-import Gallery from './components/Gallery.vue'
+import busuanzi from 'busuanzi.pure.js'
+
+// 动态导入大组件
+const xgplayer = defineAsyncComponent(() => import('./components/xgplayer.vue'))
+const Archive = defineAsyncComponent(() => import('./components/Archive.vue'))
+const TagPage = defineAsyncComponent(() => import('./components/TagPage.vue'))
+const MinecraftServer = defineAsyncComponent(() => import('./components/MinecraftServer.vue'))
+const Gallery = defineAsyncComponent(() => import('./components/Gallery.vue'))
 
 // 不蒜子
 function reloadBusuanzi() {
@@ -62,11 +63,8 @@ import { NolebaseEnhancedReadabilitiesMenu, NolebaseEnhancedReadabilitiesScreenM
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 
 // git历史
-import {
-  NolebaseGitChangelogPlugin
-} from '@nolebase/vitepress-plugin-git-changelog/client'
+import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
-
 
 // 评论区
 const GISCUS_CONFIG = {
@@ -80,11 +78,9 @@ const GISCUS_CONFIG = {
   loadEnv: 'lazy',
   lang: 'zh-CN',
 };
-const setupGiscus = (frontmatter, route) => {
+const setupGiscus = (frontmatter: Ref<Record<string, any>, Record<string, any>>, route: Route) => {
   giscusTalk(GISCUS_CONFIG, { frontmatter, route }, true);
 };
-
-// 图片放大
 
 export default {
   extends: DefaultTheme,
@@ -119,11 +115,9 @@ export default {
     if (inBrowser) {
       NProgress.configure({ showSpinner: false })
       router.onBeforeRouteChange = () => {
-        destroyFancybox() // 销毁图片查看器
         NProgress.start() // 开始进度条
       }
       router.onAfterRouteChange = () => {
-        bindFancybox() // 绑定图片查看器
         busuanzi.fetch() // 不蒜子
         NProgress.done() // 停止进度条
       }
@@ -131,25 +125,26 @@ export default {
 
   },
   setup() {
-      const route = useRoute();
-      const { frontmatter } = useData();
-      let stopWatch: () => void;
+    const route = useRoute();
+    const { frontmatter } = useData();
 
-      onMounted(async () => {
-        bindFancybox();
-        reloadBusuanzi(); // 初始加载时重新加载不蒜子
-      });
-      onUnmounted(() => {
-        try {
-          destroyFancybox();
-          if (stopWatch) {
-            stopWatch();
-          }
-        } catch (error) {
-          console.error('资源清理失败:', error);
-        }
-      });
-      // giscus评论区
-      setupGiscus(frontmatter, route);
-    },
+    onMounted(async () => {
+      reloadBusuanzi();
+      bindFancybox();
+    });
+    onUnmounted(() => {
+      destroyFancybox();
+    })
+    watch(
+      () => route.path,
+      () => {
+        nextTick(() => {
+          reloadBusuanzi(); // 每次路由切换时重新加载不蒜子
+          bindFancybox(); // 每次路由切换时重新绑定Fancybox
+        });
+      }
+    );
+    // giscus评论区
+    setupGiscus(frontmatter, route);
+  },
 } satisfies Theme
