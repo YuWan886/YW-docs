@@ -53,13 +53,6 @@ export default defineConfig({
   vite: {
     build: {
       chunkSizeWarningLimit: 1000, // 调整chunk大小警告阈值
-      rollupOptions: {
-        output: {
-          manualChunks: {
-            // 移除manualChunks配置，依赖动态导入优化代码分割
-          }
-        }
-      }
     },
     optimizeDeps: {
       exclude: [
@@ -84,7 +77,9 @@ export default defineConfig({
         repoURL: () => 'https://github.com/fishlanding/YW-docs',
         maxGitLogCount: 200,
       }),
-      GitChangelogMarkdownSection(),
+      GitChangelogMarkdownSection({
+        exclude: (id) => /index\.md/.test(id),
+      }),
       compression({
         "threshold": 500
       }),
