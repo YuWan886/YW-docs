@@ -4,7 +4,6 @@ import type { Route, Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import { inBrowser, useData, useRoute } from 'vitepress';
 import { bindFancybox, destroyFancybox } from './utils/ImgViewer';
-import googleAnalytics from 'vitepress-plugin-google-analytics'
 
 // giscus评论
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
@@ -108,9 +107,6 @@ export default {
     app.component('Gallery', Gallery);
     app.use(NolebaseGitChangelogPlugin);
     app.use(NolebaseInlineLinkPreviewPlugin);
-    googleAnalytics({
-      id: 'G-YGB9T93R16',
-    })
 
     if (inBrowser) {
       NProgress.configure({ showSpinner: false })
