@@ -100,3 +100,16 @@
     top: -2px;
     margin-right: 4px;
 }
+
+.vp-doc a[href^="https://minecraft-inside.ru/"]:before {
+    content: '';
+    background-image: url(/img/minecraft-inside.png);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
