@@ -1,4 +1,4 @@
 ---
 layout: page
-title: 已完成
+title: 已汉化
 ---
