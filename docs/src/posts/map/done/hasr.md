@@ -16,7 +16,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/hasr/cover.png
 - 原址：[MI](https://minecraft-inside.ru/maps/153299-hide-seek)
 - 版本：1.21.3
 - 类型：`多人` `MiniGames`
-- 汉化：[下崽](https://pan.quark.cn/s/05564dc9f7bf)
+- 汉化：[下崽](https://pan.quark.cn/s/73c73eb13adf)
 
 ## 介绍
 
