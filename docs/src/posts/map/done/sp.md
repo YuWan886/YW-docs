@@ -17,7 +17,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/sp/cover.png
 - 原址：[PMC](https://www.planetminecraft.com/project/splashpunk)
 - 版本：1.21.5
 - 类型：`多人` `PVP` `MiniGames`
-- 汉化：[下崽](https://pan.quark.cn/s/)
+- 汉化：[下崽](https://pan.quark.cn/s/6ef8869b6f07)
 
 ## 介绍
 
