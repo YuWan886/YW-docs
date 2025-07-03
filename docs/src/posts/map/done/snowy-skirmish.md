@@ -28,7 +28,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/snowy-skirmish/snowy-skirmish.jp
 > 将休闲打雪仗提升到一个新的水平！
 >
 
-### 特点
+### 特色
 
 雪地冲突是一场快速而有趣的打雪仗，玩家需要收集礼物盒或将对手从地图上击倒，才能为他们的团队获得积分。
 

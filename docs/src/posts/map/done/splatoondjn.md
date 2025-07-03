@@ -23,7 +23,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/splatoondjn/cover.png
 > **欢迎来到 SplatoonDJN！**    
 > 这是一个在《我的世界》中完整重现的《Splatoon》游戏版本。最多支持 8 名玩家。
 
-### **主要特色**
+### 特色
 
  - 精美大厅，内含自制的**蛮颓镇**
  - 数十种主要武器，涵盖多种类型，包括**射击枪、爆破枪、蓄力狙**等
