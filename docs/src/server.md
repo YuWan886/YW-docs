@@ -15,6 +15,6 @@ editLink: false
   articleLink="https://hypixel.net" 
 />
 <MinecraftServer 
-  serverIp="poke.yw-games.top" 
+  serverIp="server.yw-games.top" 
   articleLink="" 
 />
