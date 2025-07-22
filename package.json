@@ -1,14 +1,14 @@
 {
   "type": "module",
   "devDependencies": {
-    "@fancyapps/ui": "^6.0.15",
+    "@fancyapps/ui": "^6.0.16",
     "@mdit/plugin-figure": "^0.22.1",
     "@nolebase/markdown-it-bi-directional-links": "^2.18.0",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.0",
     "@nolebase/vitepress-plugin-git-changelog": "^2.18.0",
     "@nolebase/vitepress-plugin-inline-link-preview": "^2.18.0",
     "@types/dom-view-transitions": "^1.0.6",
-    "@types/node": "^24.0.15",
+    "@types/node": "^24.1.0",
     "canvas-confetti": "^1.9.3",
     "vitepress": "^1.6.3",
     "vitepress-sidebar": "^1.32.1",
