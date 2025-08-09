@@ -1,16 +1,16 @@
 {
   "type": "module",
   "devDependencies": {
-    "@fancyapps/ui": "^6.0.19",
+    "@fancyapps/ui": "^6.0.22",
     "@mdit/plugin-figure": "^0.22.1",
     "@nolebase/markdown-it-bi-directional-links": "^2.18.1",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.1",
     "@nolebase/vitepress-plugin-git-changelog": "^2.18.1",
     "@nolebase/vitepress-plugin-inline-link-preview": "^2.18.1",
     "@types/dom-view-transitions": "^1.0.6",
-    "@types/node": "^24.1.0",
+    "@types/node": "^24.2.1",
     "canvas-confetti": "^1.9.3",
-    "vitepress": "^1.6.3",
+    "vitepress": "^1.6.4",
     "vitepress-sidebar": "^1.33.0",
     "vue": "^3.5.18"
   },
@@ -31,6 +31,6 @@
     "vitepress-plugin-pagefind": "^0.4.14",
     "vitepress-plugin-rss": "^0.3.1",
     "vue-router": "^4.5.1",
-    "xgplayer": "^3.0.22"
+    "xgplayer": "^3.0.23"
   }
 }

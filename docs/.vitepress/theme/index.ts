@@ -26,6 +26,7 @@ import backtotop from './components/backtotop.vue';
 import confetti from "./components/confetti.vue"
 import AgreementModal from './components/AgreementModal.vue'
 import DataPanel from "./components/DataPanel.vue"
+import ModpackCard from './components/ModpackCard.vue'
 import busuanzi from 'busuanzi.pure.js'
 
 // 动态导入大组件
@@ -105,6 +106,7 @@ export default {
     app.component("TagPage", TagPage);
     app.component('MinecraftServer', MinecraftServer);
     app.component('Gallery', Gallery);
+    app.component('ModpackCard', ModpackCard);
     app.use(NolebaseGitChangelogPlugin);
     app.use(NolebaseInlineLinkPreviewPlugin);
 

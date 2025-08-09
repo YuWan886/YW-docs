@@ -29,6 +29,8 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/fg/cover.png
 
  - Q：如何成为**管理员**？   
  - A：开创造放个石头在金块上
+ - Q：出生点不对 
+ - `/tp -11 4 181`
 
 
 ## 画廊

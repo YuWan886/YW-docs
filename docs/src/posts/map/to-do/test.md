@@ -62,5 +62,7 @@ allowfullscreen>
 > [!CAUTION]
 > 行为可能带来的负面影响。
 
+<ModpackCard url="https://modrinth.com/modpack/fabulously-optimized" />
+<ModpackCard url="https://modrinth.com/modpack/zombie-invade-100-days" />
 
 <confetti />
