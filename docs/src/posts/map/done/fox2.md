@@ -48,6 +48,9 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/fox2/cover.jpg
 - **[Lithium](https://modrinth.com/mod/lithium/version/mc1.21-0.13.0)**：进一步提升游戏流畅度。
 - **[Complementary Shaders](https://modrinth.com/shader/complementary-unbound/version/r5.2.1)**：提供高质量的光影效果。
 
+> [!NOTE] 如何使用
+> 先到[原址](https://www.planetminecraft.com/project/a-fox-s-life-2/)下载地图，然后下载[汉化包](https://pan.quark.cn/s/bebf47b25f23)，资源包装两个，一个是地图资源包，另一个是汉化包
+
 ## 画廊
 
 <Gallery :images="[
