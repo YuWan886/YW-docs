@@ -12,7 +12,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/datapack/spy/cover.png
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/datapack/spy/cover.png)
 ## 基本信息
 
-- 仓库：[**Github**](https://github.com/YuWan886/Who-Is-The-Spy)
+- 仓库：[**Github**](https://github.com/YuWan886/MiniDatapacks/tree/master/src/Who-is-the-spy)
 - 版本：1.21.6+
 - 类型：`多人` `MiniGames`
 - 下崽：[点我](https://pan.quark.cn/s/64ada02cc8ef)
