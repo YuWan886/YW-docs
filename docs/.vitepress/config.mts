@@ -53,7 +53,9 @@ export default defineConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-YGB9T93R16');`
-    ]
+    ],
+    ['meta', { name: 'msvalidate.01', content: '6C1A503E6F2DF605F0A273C11141E876' }],
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-mTdCARvukp' }]
   ],
   // markdown 配置
   markdown: {
