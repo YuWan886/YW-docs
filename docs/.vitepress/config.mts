@@ -4,6 +4,7 @@ import { pagefindPlugin, chineseSearchOptimize } from 'vitepress-plugin-pagefind
 import { generateSidebar } from 'vitepress-sidebar'
 import { devDependencies } from '../../package.json'
 import { compression } from 'vite-plugin-compression2'
+import markdownItVideo from '@vrcd-community/markdown-it-video';
 
 // Rss
 import { RssPlugin, RSSOptions } from 'vitepress-plugin-rss'
@@ -68,6 +69,28 @@ export default defineConfig({
     },
     lineNumbers: true,
     config: (md) => {
+      md.use(markdownItVideo, {
+        youtube: { width: 640, height: 390, nocookie: false },
+        vimeo: { width: 500, height: 281 },
+        vine: { width: 600, height: 600, embed: 'simple' },
+        prezi: { width: 550, height: 400 },
+        bilibili: { width: 640, height: 390 },
+        video: { width: 640, height: 390 },
+        audio: { width: 640 },
+      });
+      // 重写 fence 渲染规则，移除外层 <p>
+      const defaultRender = md.renderer.rules.fence || ((tokens, idx, options, env, self) => {
+        return self.renderToken(tokens, idx, options);
+      });
+      md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+        const token = tokens[idx];
+        if (token.info.match(/^(youtube|vimeo|vine|prezi|bilibili|video|audio)$/)) {
+          // 直接返回 markdown-it-video 的渲染结果，移除外层 <p>
+          const markdownText = `@[${token.info}](${token.content})`;
+          return md.render(markdownText).replace(/^<p>(.*?)<\/p>$/s, '$1');
+        }
+        return defaultRender(tokens, idx, options, env, self);
+      };
       md.use(BiDirectionalLinks({
         dir: 'docs/src'
       }),
@@ -80,6 +103,13 @@ export default defineConfig({
         })
     },
     image: { lazyLoading: true }
+  },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag.startsWith('iframe') || tag === 'video' || tag === 'audio',
+      },
+    },
   },
   //
   vite: {

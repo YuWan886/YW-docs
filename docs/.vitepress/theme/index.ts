@@ -28,9 +28,9 @@ import AgreementModal from './components/AgreementModal.vue'
 import DataPanel from "./components/DataPanel.vue"
 import ModpackCard from './components/ModpackCard.vue'
 import busuanzi from 'busuanzi.pure.js'
+import VideoPlayer from './components/VideoPlayer.vue';
 
 // 动态导入大组件
-const xgplayer = defineAsyncComponent(() => import('./components/xgplayer.vue'))
 const Archive = defineAsyncComponent(() => import('./components/Archive.vue'))
 const TagPage = defineAsyncComponent(() => import('./components/TagPage.vue'))
 const MinecraftServer = defineAsyncComponent(() => import('./components/MinecraftServer.vue'))
@@ -99,7 +99,6 @@ export default {
     app.component('Linkcard', Linkcard);
     app.component('ArticleMetadata', ArticleMetadata);
     app.component('HomeUnderline', HomeUnderline);
-    app.component('xgplayer', xgplayer);
     app.component('confetti', confetti);
     app.component('AgreementModal', AgreementModal);
     app.component("Archive", Archive);
@@ -107,6 +106,7 @@ export default {
     app.component('MinecraftServer', MinecraftServer);
     app.component('Gallery', Gallery);
     app.component('ModpackCard', ModpackCard);
+    app.component('VideoPlayer', VideoPlayer);
     app.use(NolebaseGitChangelogPlugin);
     app.use(NolebaseInlineLinkPreviewPlugin);
 

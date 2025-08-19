@@ -12,13 +12,8 @@ updated: 2024-05-18
 
 <Linkcard url="https://vitepress.yiov.top/" title="Vitepress中文搭建教程" description="https://vitepress.yiov.top/" logo="https://vitepress.yiov.top/logo.png"/>
 
-<iframe 
-style="width:100%; aspect-ratio:16/9; margin-top: 2em;" 
-src="//player.bilibili.com/player.html?bvid=BV1YptMeMEcV" 
-frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-allowfullscreen>
-</iframe>
+<VideoPlayer platform="bilibili" idOrUrl="BV1Zz421C7xy" />
+<VideoPlayer platform="youtube" idOrUrl="dQw4w9WgXcQ" />
 
 ## 容器
 
@@ -64,5 +59,7 @@ allowfullscreen>
 
 <ModpackCard url="https://modrinth.com/modpack/fabulously-optimized" />
 <ModpackCard url="https://modrinth.com/modpack/zombie-invade-100-days" />
+
+
 
 <confetti />
