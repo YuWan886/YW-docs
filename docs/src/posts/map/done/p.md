@@ -9,7 +9,7 @@ updated: 2025-05-10
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/p/cover.png
 ---
 
-# 柱域争锋
+# Pillars: Ур Studio | 柱域争锋
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/p/cover.png)
 ## 基本信息
 

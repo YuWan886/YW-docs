@@ -8,7 +8,7 @@ updated: 2025-03-22
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/ks2/ks2_cover.jpg
 ---
 
-# 连杀2
+# Killstreak | 连杀2
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/ks2/ks2_cover.jpg)
 ## 基本信息
 

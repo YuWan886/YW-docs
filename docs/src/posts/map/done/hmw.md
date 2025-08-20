@@ -8,7 +8,7 @@ updated: 2025-07-19
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/hmw/cover.png
 ---
 
-# 蜂蜜导弹战争
+# Honey Missile Wars | 蜂蜜导弹战争
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/hmw/cover.png)
 ## 基本信息
 

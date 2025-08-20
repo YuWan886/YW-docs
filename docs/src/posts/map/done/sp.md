@@ -9,7 +9,7 @@ updated: 2025-05-25
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/sp/cover.png
 ---
 
-# 激浪朋克
+# SplashPunk | 激浪朋克
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/sp/cover.png)
 ## 基本信息
 

@@ -8,7 +8,7 @@ updated: 2025-05-25
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/wyr/cover.jpg
 ---
 
-# 你宁愿
+# Would You Rather | 你宁愿
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/wyr/cover.jpg)
 ## 基本信息
 

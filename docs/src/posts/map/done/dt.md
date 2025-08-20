@@ -8,7 +8,7 @@ updated: 2025-02-03
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/duel-tnt/dt_cover.jpg
 ---
 
-# TNT决斗
+# Duel TNT | TNT决斗
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/duel-tnt/dt_cover.jpg)
 ## 基本信息
 

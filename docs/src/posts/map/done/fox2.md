@@ -9,7 +9,7 @@ updated: 2025-08-09
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/fox2/cover.jpg
 ---
 
-# 狐狸的生活 2
+# A Fox's Life 2 | 狐狸的生活 2
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/fox2/cover.jpg)
 ## 基本信息
 

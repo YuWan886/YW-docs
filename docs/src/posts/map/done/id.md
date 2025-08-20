@@ -9,7 +9,7 @@ updated: 2025-03-29
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/id/cover.png
 ---
 
-# 伊利玛娜塔防
+# Illemana Defense | 伊利玛娜塔防
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/id/cover.png)
 ## 基本信息
 

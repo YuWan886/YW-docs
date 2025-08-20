@@ -9,7 +9,7 @@ updated: 2025-01-05
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/ttr/ttr-cover.png
 ---
 
-# 皇家坦克大战
+# Toy Tank Royale | 皇家坦克大战
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/ttr/ttr-cover.jpg)
 ## 基本信息
 

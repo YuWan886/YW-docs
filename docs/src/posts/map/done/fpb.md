@@ -8,7 +8,7 @@ updated: 2025-04-25
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/fpb/cover.png
 ---
 
-# 花盆大作战
+# Flower Pot Battle | 花盆大作战
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/fpb/cover.png)
 ## 基本信息
 

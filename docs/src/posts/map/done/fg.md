@@ -8,7 +8,7 @@ updated: 2025-08-04
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/fg/cover.png
 ---
 
-# 糖豆人
+# Fall Guys | 糖豆人
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/fg/cover.png)
 ## 基本信息
 

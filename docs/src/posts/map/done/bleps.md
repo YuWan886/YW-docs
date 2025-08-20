@@ -8,7 +8,7 @@ updated: 2025-02-03
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/bleps/bleps_cover.png
 ---
 
-# Bleps：箭在弦上
+# Bleps: Nocked and Loaded | Bleps：箭在弦上
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/bleps/bleps_cover.png)
 ## 基本信息
 

@@ -8,7 +8,7 @@ updated: 2025-07-26
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/ms2/cover.jpg
 ---
 
-# Makers的掘一死战
+# Makers Spleef II | Makers的掘一死战
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/ms2/cover.jpg)
 ## 基本信息
 

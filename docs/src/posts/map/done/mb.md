@@ -8,7 +8,7 @@ updated: 2025-06-25
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/mb/cover.png
 ---
 
-# 重锤爆破者
+# MACE BLASTERS | 重锤爆破者
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/mb/cover.png)
 ## 基本信息
 

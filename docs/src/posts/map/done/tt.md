@@ -9,7 +9,7 @@ updated: 2025-06-29
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/tt/cover.png
 ---
 
-# 占顶为王
+# Temple Topper | 占顶为王
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/tt/cover.png)
 ## 基本信息
 

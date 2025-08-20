@@ -9,7 +9,7 @@ updated: 2025-02-23
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/mimi/mimi_cover.png
 ---
 
-# 模仿者
+# Mimics! | 模仿者
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/mimi/mimi_cover.png)
 ## 基本信息
 

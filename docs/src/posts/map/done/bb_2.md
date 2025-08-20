@@ -9,7 +9,7 @@ updated: 2025-04-30
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/bb_2/cover.png
 ---
 
-# 爆友联盟
+# Bomb Buddies | 爆友联盟
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/bb_2/cover.png)
 ## 基本信息
 

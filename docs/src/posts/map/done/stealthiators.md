@@ -8,7 +8,7 @@ updated: 2025-06-18
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/stealthiators/cover.jpg
 ---
 
-# 寻踪追迹
+# Stealthiators | 寻踪追迹
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/stealthiators/cover.jpg)
 ## 基本信息
 

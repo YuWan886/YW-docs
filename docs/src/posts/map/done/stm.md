@@ -8,7 +8,7 @@ updated: 2025-05-01
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/stm/cover.png
 ---
 
-# 超级叛徒之谜
+# Super Traitor Mystery | 超级叛徒之谜
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/stm/cover.png)
 ## 基本信息
 

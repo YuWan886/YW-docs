@@ -8,7 +8,7 @@ updated: 2025-02-01
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/hasf/hasf_cover.jpg
 ---
 
-# 躲猫猫最终版
+# Hide And Seek | 躲猫猫最终版
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/hasf/hasf_cover.jpg)
 ## 基本信息
 

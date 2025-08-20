@@ -8,12 +8,12 @@ updated: 2025-02-23
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/ftr/ftr_cover.jpg
 ---
 
-# 给劫掠兽喂食
+# Feed the Ravager | 给劫掠兽喂食
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/ftr/ftr_cover.jpg)
 ## 基本信息
 
 - 作者：[**AzerustTeam**](https://azerusteam.com/)
-- 原址：[AzerustTeam](https://azerusteam.com/map/feed-the-ravager/)
+- 原址：[AzerustTeam](https://azerusteam.com/map/feed-the-ravager)
 - 版本：1.18.2
 - 类型：`多人` `PVP`
 - 汉化：[下崽](https://pan.quark.cn/s/bf158b3e255e)

@@ -8,7 +8,7 @@ updated: 2025-07-24
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/winged/cover.png
 ---
 
-# 空翼对决
+# Winged | 空翼对决
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/winged/cover.png)
 ## 基本信息
 

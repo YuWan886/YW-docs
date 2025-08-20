@@ -9,7 +9,7 @@ updated: 2025-02-28
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/sa/sa_cover.png
 ---
 
-# 太空王牌
+# Space Aces | 太空王牌
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/sa/sa_cover.png)
 ## 基本信息
 

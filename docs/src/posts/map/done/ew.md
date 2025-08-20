@@ -8,7 +8,7 @@ updated: 2025-07-23
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/ew/cover.png
 ---
 
-# 元素战争
+# Elemental War | 元素战争
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/ew/cover.png)
 ## 基本信息
 

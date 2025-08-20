@@ -9,7 +9,7 @@ updated: 2025-03-09
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/ttt/ttt_cover.png
 ---
 
-# 匪镇谍影2
+# TTT / Zombiemode / PropHunt | 匪镇谍影2
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/ttt/ttt_cover.png)
 ## 基本信息
 

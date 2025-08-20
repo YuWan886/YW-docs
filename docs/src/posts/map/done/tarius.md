@@ -8,12 +8,12 @@ updated: 2025-08-09
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/tarius/cover.png
 ---
 
-# 塔里乌斯计划
+# PROJECT TARIUS | 塔里乌斯计划
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/tarius/cover.png)
 ## 基本信息
 
 - 作者：[**CanadianHybrid**](https://www.planetminecraft.com/member/canadianhybrid/)
-- 原址：[PMC](https://www.planetminecraft.com/project/tarius/)
+- 原址：[PMC](https://www.planetminecraft.com/project/project-tarius/)
 - 版本：1.20.4
 - 类型：`多人` `PVP`
 - 汉化：[下崽](https://pan.quark.cn/s/8845e56e30f5)

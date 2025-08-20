@@ -10,7 +10,7 @@ updated: 2025-07-10
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/safaringo/cover.jpg
 ---
 
-# 猎游记
+# Safaringo | 猎游记
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/safaringo/cover.jpg)
 ## 基本信息
 

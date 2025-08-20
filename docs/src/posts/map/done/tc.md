@@ -8,7 +8,7 @@ updated: 2025-08-11
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/tc/cover.png
 ---
 
-# 试炼冠军
+# Trial Champions | 试炼冠军
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/tc/cover.png)
 ## 基本信息
 

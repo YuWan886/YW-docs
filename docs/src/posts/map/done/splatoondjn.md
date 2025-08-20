@@ -8,7 +8,7 @@ updated: 2025-06-28
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/splatoondjn/cover.png
 ---
 
-# 喷射战士
+# SplatoonDJN | 喷射战士
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/splatoondjn/cover.png)
 ## 基本信息
 

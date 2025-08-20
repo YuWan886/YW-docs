@@ -8,7 +8,7 @@ updated: 2025-07-03
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/intervention/cover.png
 ---
 
-# 干预行动
+# Intervention | 干预行动
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/intervention/cover.png)
 ## 基本信息
 

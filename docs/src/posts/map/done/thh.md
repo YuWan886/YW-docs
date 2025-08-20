@@ -9,7 +9,7 @@ updated: 2025-01-28
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/thh/thh_cover.png
 ---
 
-# 谜宅惊魂
+# The Hauntpuzzled House | 谜宅惊魂
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/thh/thh_cover.png)
 ## 基本信息
 

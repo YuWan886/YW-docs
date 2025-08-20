@@ -10,7 +10,7 @@ updated: 2025-07-03
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/ws/cover.png
 ---
 
-# 打工人生模拟器
+# Worker Simulator | 打工人生模拟器
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/ws/cover.png)
 ## 基本信息
 

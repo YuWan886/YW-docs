@@ -8,12 +8,12 @@ updated: 2025-05-15
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/hasr/cover.png
 ---
 
-# 躲猫猫：复兴
+# Hide and Seek: Revival | 躲猫猫：复兴
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/map/hasr/cover.png)
 ## 基本信息
 
 - 作者：[**Water_Studio**](https://minecraft-inside.ru/user/Water_Studio/)
-- 原址：[MI](https://minecraft-inside.ru/maps/153299-hide-seek)
+- 原址：[MI](https://minecraft-inside.ru/maps/153299-hide-seek.html)
 - 版本：1.21.3
 - 类型：`多人` `MiniGames`
 - 汉化：[下崽](https://pan.quark.cn/s/73c73eb13adf)
