@@ -29,6 +29,7 @@ import DataPanel from "./components/DataPanel.vue"
 import ModpackCard from './components/ModpackCard.vue'
 import busuanzi from 'busuanzi.pure.js'
 import VideoPlayer from './components/VideoPlayer.vue';
+import GitHubReadmeRenderer from './components/GitHubReadmeRenderer.vue';
 
 // 动态导入大组件
 const Archive = defineAsyncComponent(() => import('./components/Archive.vue'))
@@ -107,6 +108,7 @@ export default {
     app.component('Gallery', Gallery);
     app.component('ModpackCard', ModpackCard);
     app.component('VideoPlayer', VideoPlayer);
+    app.component('GitHubReadmeRenderer', GitHubReadmeRenderer)
     app.use(NolebaseGitChangelogPlugin);
     app.use(NolebaseInlineLinkPreviewPlugin);
 

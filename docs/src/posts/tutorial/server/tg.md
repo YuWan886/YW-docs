@@ -1,7 +1,6 @@
 ---
 title: 糖糕云MC面板服教程
 tags:
-  - MC
   - 服务器
   - 教程
 created: 2025-03-24
@@ -10,7 +9,6 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/tutorial/tg/cover.png
 ---
 
 # 糖糕云MC面板服教程
----
 ![我是封面](https://ypy-uss.yuwan886.top/YW-docs/tutorial/tg/cover.png)
 
 ## 注册与验证
