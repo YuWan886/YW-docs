@@ -4,7 +4,7 @@ tags:
  - 多人
  - MiniGames
 created: 2025-08-24
-updated: 2025-08-24
+updated: 2025-08-31
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/mcp2/cover.png
 ---
 
@@ -16,7 +16,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/mcp2/cover.png
 - 原址：[PMC](https://www.planetminecraft.com/project/minecraft-party-2-6030280/)
 - 版本：1.21.8
 - 类型：`多人` `MiniGames`
-- 非官方汉化：[<span title="仅为汉化包，地图需到原址下载">下崽</span>](https://pan.quark.cn/s/c0657b8dccc0)
+- <font color="#c00000">官方地图已支持中文</font>
 
 ## 介绍
 
@@ -343,10 +343,6 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/mcp2/cover.png
   - 设置星星：`/scoreboard players set 玩家名 boardstars X`
   - 强制开始小游戏：`/function mcp:start_minigame`（谨慎使用）
 
----
-
-> [!NOTE] 如何使用
-> 先到[原址](https://www.planetminecraft.com/project/minecraft-party-2-6030280/)下载地图，然后下载[汉化包](https://pan.quark.cn/s/c0657b8dccc0)，资源包装两个，一个是地图资源包，另一个是汉化包
 
 ## 画廊
 
