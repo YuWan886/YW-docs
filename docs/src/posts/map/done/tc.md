@@ -4,7 +4,7 @@ tags:
  - 多人
  - PVP
 created: 2025-08-11
-updated: 2025-08-11
+updated: 2025-10-02
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/tc/cover.png
 ---
 
@@ -14,13 +14,14 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/tc/cover.png
 
 - 作者：[**Haikis**](https://www.curseforge.com/members/haikis)
 - 原址：[CurseForge](https://www.curseforge.com/minecraft/worlds/trial-champions)
-- 版本：1.21.8
+- 版本：1.21.9
 - 类型：`多人` `PVP`
 - 汉化：[下崽](https://pan.quark.cn/s/d3538bfba74f)
 
 ## 介绍
 
-拥有超过20个职业PvP地图，每个职业都有特殊能力、武器和机制可供选择！在6个战场中战斗，成为冠军！
+拥有超过20个职业PvP地图，每个职业都有特殊能力、武器和机制可供选择！  
+在6个战场中战斗，成为冠军！
 
 ## 画廊
 
