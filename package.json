@@ -1,14 +1,14 @@
 {
   "type": "module",
   "devDependencies": {
-    "@fancyapps/ui": "^6.0.33",
+    "@fancyapps/ui": "^6.0.34",
     "@mdit/plugin-figure": "^0.22.1",
     "@nolebase/markdown-it-bi-directional-links": "^2.18.2",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
     "@nolebase/vitepress-plugin-git-changelog": "^2.18.2",
     "@nolebase/vitepress-plugin-inline-link-preview": "^2.18.2",
     "@types/dom-view-transitions": "^1.0.6",
-    "@types/node": "^24.5.2",
+    "@types/node": "^24.7.0",
     "canvas-confetti": "^1.9.3",
     "vitepress": "^1.6.4",
     "vitepress-sidebar": "^1.33.0",
@@ -24,16 +24,16 @@
     "@vrcd-community/markdown-it-video": "^1.1.1",
     "busuanzi.pure.js": "^1.0.3",
     "dompurify": "^3.2.7",
-    "marked": "^16.3.0",
+    "marked": "^16.4.0",
     "nprogress-v2": "^1.1.10",
     "pagefind": "^1.4.0",
     "pinyin": "^4.0.0",
     "segmentit": "^2.0.3",
-    "typescript": "^5.9.2",
+    "typescript": "^5.9.3",
     "vite-plugin-compression2": "^2.2.1",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
-    "vitepress-plugin-pagefind": "^0.4.14",
-    "vitepress-plugin-rss": "^0.3.1",
+    "vitepress-plugin-pagefind": "^0.4.15",
+    "vitepress-plugin-rss": "^0.3.2",
     "vue-router": "^4.5.1"
   }
 }
