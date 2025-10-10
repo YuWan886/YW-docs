@@ -113,3 +113,16 @@
     top: -2px;
     margin-right: 4px;
 }
+
+.vp-doc a[href^="https://discord.gg/"]:before {
+    content: '';
+    background-image: url(/svg/discord.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
