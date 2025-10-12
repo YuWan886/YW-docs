@@ -58,31 +58,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/sa/sa_cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/tarius/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="太空王牌"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="塔里乌斯计划"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《太空王牌》是什么？ 《太空王牌》是一款以第一人称射击（FPS）战斗和自定义职业配置为核心的《我的世界》小游戏。包含多种适应不同场景的游戏模式，玩家可通过15种独特职业体验策略对抗。这张地图可被视作《我的世界》版的《军团要塞2》或《守望先锋》。"  FontFamily="微软雅黑"
+                <TextBlock Text="《塔里乌斯计划》是一个专注于射箭的PVP地图。该项目受 [Infinitri](https://www.minecraftmaps.com/pvp-maps/infinitri) 的启发，但已从头彻底重制。 游戏包含 **5+** 种游戏模式，并提供 **9** 个独特地图，这些地图大小各异。该地图支持任意数量的玩家。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/sa.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/tarius.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/space-aces/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/project-tarius/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/6cdb8f84d1c4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/8845e56e30f5"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -105,31 +105,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/fg/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/bb_2/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="糖豆人"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="爆友联盟"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《糖豆人》是一款基于MC的小游戏地图，灵感来源于热门游戏《Fall Guys》。该地图将《Fall Guys》中的部分关卡以MC的方式重现。"  FontFamily="微软雅黑"
+                <TextBlock Text="《爆友联盟》是一款1-2人爆炸挑战游戏，包含以下2种游戏模式： 1. **经典模式** 使用限定数量的TNT炸毁13个不同的建筑 (最后一个结构在完成其他所有结构后解锁) 预计通关时间：20-30分钟 2. **排位模式** 挑战高效炸毁建筑，冲击排行榜"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/fg.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/bb_2.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.koreaminecraft.net/map/2930183"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/bomb-buddies/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/e2f48539bffd"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/05564dc9f7bf"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -152,31 +152,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/wyr/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/mimi/mimi_cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="你宁愿"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="模仿者"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《你宁愿》是由Gene主持的趣味游戏节目！你将面临各种两难选择，比如成为矿工还是去煮汤。在限定时间内完成挑战即可获得积分。最终积分最高的玩家将成为《你宁愿》的冠军！ 本地图包含： - 20+个迷你游戏将出现在问题中 - 可解锁的领奖台 - 为你加油的观众 - 额外的颁奖典礼环节 祝你在《你宁愿》中取得胜利！"  FontFamily="微软雅黑"
+                <TextBlock Text="*哦，你正是我们要找的人！公会急需魔法专家来应对当前的危机……* ---- 传统的捉迷藏地图有一个大问题：在同一张地图上玩过20次后，你就会记住游戏中的每一个方块和藏身之处，这让躲藏者处于极大的劣势，并降低了游戏的可玩性。**模仿者**！为道具狩猎类游戏带来了革命性的概念：**每一个方块都可能成为道具。** 在这款小游戏中，巫师（寻找者）的任务是消灭隐藏在地图中伪装成各种方块的模仿者（躲藏者）。然..."  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/wyr.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/mimi.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/would-you-rather-4897801/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/mimics/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/6aacf7b7dee8"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/03f7dea57c9c"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -199,31 +199,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/ms2/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/sp/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="Makers的掘一死战"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="激浪朋克"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="挖掘对手脚下的方块让他们掉落到羊毛上！"  FontFamily="微软雅黑"
+                <TextBlock Text="《激浪朋克》是一款设定在独特朋克卡通奇幻世界中的高能量快节奏PvP游戏！受热门游戏《UpGun》启发，这个基于Minecraft 1.21.5版本打造的地图将带您进入混乱的自由混战（FFA）。当倒计时结束时，淘汰数最多的玩家将成为最终赢家！"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/ms2.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/sp.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://minemakers.net/makers-spleef-2"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/splashpunk"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/fffd27ff54e4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/6ef8869b6f07"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -246,31 +246,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/stm/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/lomia/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="超级叛徒之谜"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="布里托德内克3.5-洛米亚"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《超级叛徒之谜》是一款经典谋杀推理题材的多人对抗游戏，玩家将分为三个阵营：叛徒、无辜者与侦探。叛徒需要消灭所有无辜者，而无辜者必须在为时已晚前识破叛徒身份并将其清除。"  FontFamily="微软雅黑"
+                <TextBlock Text="> 在一个由众神统治的世界——布里托德内克……的某个地方 > 有一座名为洛米亚的城市 > 这座城市似乎正在发生某个事件 > 被神秘存在传送至此的你，能否成功解决这一事件呢？ --- > [!NOTE] 如何使用 > 先到[原址](https://www.planetminecraft.com/project/pve-britdenek3-5-lomia-adventure/)下载地图，然后下载[汉..."  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/stm.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/lomia.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/super-murder-mystery/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/pve-britdenek3-5-lomia-adventure/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/22e802b3a525"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/d0b58cf9211d"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
