@@ -58,172 +58,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/tarius/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/safaringo/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="塔里乌斯计划"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="猎游记"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《塔里乌斯计划》是一个专注于射箭的PVP地图。该项目受 [Infinitri](https://www.minecraftmaps.com/pvp-maps/infinitri) 的启发，但已从头彻底重制。 游戏包含 **5+** 种游戏模式，并提供 **9** 个独特地图，这些地图大小各异。该地图支持任意数量的玩家。"  FontFamily="微软雅黑"
+                <TextBlock Text="猎游记是一款探险小游戏地图，玩家们相互竞争，争取第一个将4个怪物头颅排列成网格。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/tarius.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/safaringo.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/project-tarius/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/safaringo/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/8845e56e30f5"
-                        Background="#d1fae5" Foreground="#065f46" 
-                        BorderThickness="0"/>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
-    </Border>
-</local:MyCard>
-
-
-<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
-    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
-        <Border.Effect>
-            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
-        </Border.Effect>
-        <Grid Margin="12">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            
-            <!-- 左侧图片区域 -->
-            <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/bb_2/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Border>
-            
-            <!-- 右侧内容区域 -->
-            <StackPanel Grid.Column="1" Margin="12,0,0,0">
-                <!-- 标题 -->
-                <TextBlock Text="爆友联盟"  FontWeight="SemiBold" FontFamily="微软雅黑"
-                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
-                
-                <!-- 描述 -->
-                <TextBlock Text="《爆友联盟》是一款1-2人爆炸挑战游戏，包含以下2种游戏模式： 1. **经典模式** 使用限定数量的TNT炸毁13个不同的建筑 (最后一个结构在完成其他所有结构后解锁) 预计通关时间：20-30分钟 2. **排位模式** 挑战高效炸毁建筑，冲击排行榜"  FontFamily="微软雅黑"
-                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
-                
-                <!-- 按钮区域 -->
-                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
-                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/bb_2.html"
-                        Background="#e5e7eb" Foreground="#374151" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/bomb-buddies/"
-                        Background="#fee2e2" Foreground="#b91c1c" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/05564dc9f7bf"
-                        Background="#d1fae5" Foreground="#065f46" 
-                        BorderThickness="0"/>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
-    </Border>
-</local:MyCard>
-
-
-<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
-    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
-        <Border.Effect>
-            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
-        </Border.Effect>
-        <Grid Margin="12">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            
-            <!-- 左侧图片区域 -->
-            <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/mimi/mimi_cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Border>
-            
-            <!-- 右侧内容区域 -->
-            <StackPanel Grid.Column="1" Margin="12,0,0,0">
-                <!-- 标题 -->
-                <TextBlock Text="模仿者"  FontWeight="SemiBold" FontFamily="微软雅黑"
-                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
-                
-                <!-- 描述 -->
-                <TextBlock Text="*哦，你正是我们要找的人！公会急需魔法专家来应对当前的危机……* ---- 传统的捉迷藏地图有一个大问题：在同一张地图上玩过20次后，你就会记住游戏中的每一个方块和藏身之处，这让躲藏者处于极大的劣势，并降低了游戏的可玩性。**模仿者**！为道具狩猎类游戏带来了革命性的概念：**每一个方块都可能成为道具。** 在这款小游戏中，巫师（寻找者）的任务是消灭隐藏在地图中伪装成各种方块的模仿者（躲藏者）。然..."  FontFamily="微软雅黑"
-                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
-                
-                <!-- 按钮区域 -->
-                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
-                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/mimi.html"
-                        Background="#e5e7eb" Foreground="#374151" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/mimics/"
-                        Background="#fee2e2" Foreground="#b91c1c" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/03f7dea57c9c"
-                        Background="#d1fae5" Foreground="#065f46" 
-                        BorderThickness="0"/>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
-    </Border>
-</local:MyCard>
-
-
-<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
-    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
-        <Border.Effect>
-            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
-        </Border.Effect>
-        <Grid Margin="12">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            
-            <!-- 左侧图片区域 -->
-            <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/sp/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Border>
-            
-            <!-- 右侧内容区域 -->
-            <StackPanel Grid.Column="1" Margin="12,0,0,0">
-                <!-- 标题 -->
-                <TextBlock Text="激浪朋克"  FontWeight="SemiBold" FontFamily="微软雅黑"
-                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
-                
-                <!-- 描述 -->
-                <TextBlock Text="《激浪朋克》是一款设定在独特朋克卡通奇幻世界中的高能量快节奏PvP游戏！受热门游戏《UpGun》启发，这个基于Minecraft 1.21.5版本打造的地图将带您进入混乱的自由混战（FFA）。当倒计时结束时，淘汰数最多的玩家将成为最终赢家！"  FontFamily="微软雅黑"
-                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
-                
-                <!-- 按钮区域 -->
-                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
-                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/sp.html"
-                        Background="#e5e7eb" Foreground="#374151" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/splashpunk"
-                        Background="#fee2e2" Foreground="#b91c1c" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/6ef8869b6f07"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/3c99e3f32dbe"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -271,6 +130,147 @@
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
                         EventType="打开网页" EventData="https://pan.quark.cn/s/d0b58cf9211d"
+                        Background="#d1fae5" Foreground="#065f46" 
+                        BorderThickness="0"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</local:MyCard>
+
+
+<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
+    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
+        </Border.Effect>
+        <Grid Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- 左侧图片区域 -->
+            <Border Grid.Column="0" Width="120" Height="68"  >
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/wq/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <!-- 右侧内容区域 -->
+            <StackPanel Grid.Column="1" Margin="12,0,0,0">
+                <!-- 标题 -->
+                <TextBlock Text="人狼任务2"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
+                
+                <!-- 描述 -->
+                <TextBlock Text="> 体验“おどみん”原创的人狼游戏《我的世界人狼任务》！通过完成各种任务，在村民与人狼之间的生存之战中脱颖而出！"  FontFamily="微软雅黑"
+                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
+                
+                <!-- 按钮区域 -->
+                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/wq.html"
+                        Background="#e5e7eb" Foreground="#374151" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://minecraft-mcworld.com/43636/"
+                        Background="#fee2e2" Foreground="#b91c1c" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/8dac64c180b1"
+                        Background="#d1fae5" Foreground="#065f46" 
+                        BorderThickness="0"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</local:MyCard>
+
+
+<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
+    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
+        </Border.Effect>
+        <Grid Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- 左侧图片区域 -->
+            <Border Grid.Column="0" Width="120" Height="68"  >
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/hmw/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <!-- 右侧内容区域 -->
+            <StackPanel Grid.Column="1" Margin="12,0,0,0">
+                <!-- 标题 -->
+                <TextBlock Text="蜂蜜导弹战争"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
+                
+                <!-- 描述 -->
+                <TextBlock Text="一场颠覆传统的经典导弹大战！向好友发射TNT活塞飞行器，炸穿他们的城墙！"  FontFamily="微软雅黑"
+                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
+                
+                <!-- 按钮区域 -->
+                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/hmw.html"
+                        Background="#e5e7eb" Foreground="#374151" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://www.minecraftmaps.com/48564-honey-missile-wars"
+                        Background="#fee2e2" Foreground="#b91c1c" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/e2469cb81409"
+                        Background="#d1fae5" Foreground="#065f46" 
+                        BorderThickness="0"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</local:MyCard>
+
+
+<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
+    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
+        </Border.Effect>
+        <Grid Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- 左侧图片区域 -->
+            <Border Grid.Column="0" Width="120" Height="68"  >
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/thh/thh_cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <!-- 右侧内容区域 -->
+            <StackPanel Grid.Column="1" Margin="12,0,0,0">
+                <!-- 标题 -->
+                <TextBlock Text="谜宅惊魂"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
+                
+                <!-- 描述 -->
+                <TextBlock Text="有一天，科学家Eriot收到了一份奇怪的邀请，邀请他去城外很远的废弃房子。为什么有人会从那里打电话？出于兴趣，Eriot开着他的卡车来到了这座神秘的房子。 在这里，你将以他的角色穿过这座房子，参观走廊、隐藏的房间和带有谜题的大厅，穿越鬼魂以了解你访问的目的。 要穿透一些地方，你首先需要用斧头打破腐烂的木板和玻璃，但逐渐地你会发现更多的工具来摧毁其他障碍物。"  FontFamily="微软雅黑"
+                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
+                
+                <!-- 按钮区域 -->
+                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/thh.html"
+                        Background="#e5e7eb" Foreground="#374151" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/the-hauntpuzzled-house/"
+                        Background="#fee2e2" Foreground="#b91c1c" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/3254fb7cdd25"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
