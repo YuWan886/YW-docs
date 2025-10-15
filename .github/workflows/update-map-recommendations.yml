@@ -1,9 +1,9 @@
-name: 更新每日地图推荐
+name: 更新每周地图推荐
 
 on:
   schedule:
-    # 每天北京时间8点运行 (UTC+8)
-    - cron: '0 0 * * *'
+    # 每周五北京时间8点运行 (UTC+8)
+    - cron: '0 0 * * 5'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -44,5 +44,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add docs/src/posts/map/pcl_sub_file.xaml
-        git commit -m "🤖 自动更新每日地图推荐 [$(date +'%Y-%m-%d %H:%M')]"
+        git commit -m "🤖 自动更新每周地图推荐 [$(date +'%Y-%m-%d %H:%M')]"
         git push

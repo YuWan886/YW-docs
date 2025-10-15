@@ -181,13 +181,13 @@ def generate_complete_xaml(maps):
             
             <!-- 左侧文本内容 -->
             <StackPanel Grid.Column="0">
-                <TextBlock Text="每日地图推荐"  FontWeight="Bold" FontFamily="微软雅黑"
+                <TextBlock Text="每周地图推荐"  FontWeight="Bold" FontFamily="微软雅黑"
                            Foreground="#ffffff" Margin="0,0,0,8">
                     <TextBlock.Effect>
                         <DropShadowEffect BlurRadius="8" ShadowDepth="1" Opacity="0.2" Color="#000000"/>
                     </TextBlock.Effect>
                 </TextBlock>
-                <TextBlock Text="每日精选5张优质地图，为您带来不一样的游戏体验！"
+                <TextBlock Text="每周精选5张优质地图，为您带来不一样的游戏体验！"
                             FontFamily="微软雅黑" Foreground="#e5e7eb" Margin="0,0,0,12"/>
                 <StackPanel Orientation="Horizontal">
                 <local:MyButton Text="作者B站"  Padding="10,4" Margin="0,0,8,0" ColorType="Highlight"
