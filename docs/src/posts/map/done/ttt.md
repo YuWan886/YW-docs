@@ -14,12 +14,12 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/ttt/ttt_cover.png
 ## 基本信息
 
 - 作者：[**Vitruv**](https://www.planetminecraft.com/member/vitruv/)
-- 原址：[TTT ](https://www.planetminecraft.com/project/rrouble-in-terrorist-town/)
+- 原址：[TTT](https://www.planetminecraft.com/project/rrouble-in-terrorist-town/)
 - 版本：1.21.4
 - 类型：`多人` `PVP` `解密`
 - 汉化：[下崽](https://pan.quark.cn/s/a2346444ef67)
 
-## 什么是 TTT？
+## 介绍
 
 **「匪镇谍影」**（Trouble in Terrorist Town，简称TTT）是一款源自《Garry's Mod》的多人在线游戏模式。玩家将被随机分配为以下角色：  
 - **无辜者**：需存活并找出叛徒。  
