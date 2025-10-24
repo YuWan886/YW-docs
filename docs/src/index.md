@@ -11,11 +11,11 @@ hero:
     alt: 鱼丸 Team
   actions:
     - theme: brand
-      text: 看看地图
+      text: 看看地图汉化
       link: /posts/map/
     - theme: alt
-      text: 看看整合包
-      link: /posts/modpack/
+      text: 看看作品
+      link: /posts/creations/
     - theme: sponsor
       text: GitHub
       link: https://github.com/fishlanding/YW-docs

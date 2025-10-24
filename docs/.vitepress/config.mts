@@ -182,7 +182,7 @@ export default defineConfig({
     //导航栏
     nav: [
       { text: '主页', link: '/' },
-      { text: '数据包', link: '/posts/datapack' },
+      { text: '作品', link: '/posts/creations' },
       { text: '归档', link: '/posts/archives' },
       { text: '标签', link: '/posts/tags' },
       { text: '团队', link: '/team' },
@@ -214,8 +214,8 @@ export default defineConfig({
       },
       {
         documentRootPath: '/docs/src/posts',
-        scanStartPath: 'modpack',
-        resolvePath: '/posts/modpack/',
+        scanStartPath: 'creations',
+        resolvePath: '/posts/creations/',
         useTitleFromFrontmatter: true,
         useTitleFromFileHeading: true,
         useFolderTitleFromIndexFile: true,
@@ -226,16 +226,6 @@ export default defineConfig({
         documentRootPath: '/docs/src/posts',
         scanStartPath: 'tutorial',
         resolvePath: '/posts/tutorial/',
-        useTitleFromFrontmatter: true,
-        useTitleFromFileHeading: true,
-        useFolderTitleFromIndexFile: true,
-        sortFolderTo: 'top',
-        collapsed: false
-      },
-      {
-        documentRootPath: '/docs/src/posts',
-        scanStartPath: 'datapack',
-        resolvePath: '/posts/datapack/',
         useTitleFromFrontmatter: true,
         useTitleFromFileHeading: true,
         useFolderTitleFromIndexFile: true,
