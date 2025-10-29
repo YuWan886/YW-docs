@@ -1,8 +1,8 @@
 ---
 title: 超级史蒂夫派对
 tags: 
- - 多人
- - MiniGams
+  - 多人
+  - MiniGams
 created: 2025-10-24
 updated: 2025-10-24
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/ssp/cover.png
@@ -24,7 +24,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/ssp/cover.png
 
 收集硬币、购买星星、使用物品，并通过小游戏战斗，成为超级史蒂夫派对的冠军。
 
-## 特色
+### 特色
 
 - **回合制掷骰子** - 玩家轮流掷骰子决定移动步数
 - **动态事件系统** - 棋子落点触发各种随机事件

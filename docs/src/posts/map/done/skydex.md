@@ -26,8 +26,6 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/skydex/cover.png
 SkyDex 是一款基于团队的 PvP/PvE 地图，采用未来主义风格，提供多种游戏模式，让玩家探索不同的策略和团队合作战术。地图包含具有不同能力的独特职业和广泛的枪械武器，为玩家创造了一个充满活力的战斗环境。
 
 
-## 特色
-
 ### 两大阵营
 
 #### Alvium 阵营
