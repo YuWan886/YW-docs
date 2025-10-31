@@ -16,7 +16,8 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 - 仓库：[**Github**](https://github.com/YuWan886/Lucky-Pillar)
 - 版本：1.21.11
 - 类型：`多人` `PVP` `MiniGames`
-- 下崽：[点我]()
+- 下崽：[点我](https://pan.quark.cn/s/f1c7b348f3c0)
+- 反馈：[点我](https://docs.qq.com/smartsheet/DUUt2UHZvS2RpaUtC?tab=BB08J2)
 
 ## 介绍
 
@@ -67,5 +68,6 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 ## 画廊
 
 <Gallery :images="[
-  { src: '' }
+  { src: 'https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/1.png' },
+  { src: 'https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/2.png' }
 ]" />
