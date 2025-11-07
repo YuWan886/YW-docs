@@ -58,31 +58,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/sa/sa_cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/winged/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="太空王牌"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="空翼对决"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《太空王牌》是什么？ 《太空王牌》是一款以第一人称射击（FPS）战斗和自定义职业配置为核心的《我的世界》小游戏。包含多种适应不同场景的游戏模式，玩家可通过15种独特职业体验策略对抗。这张地图可被视作《我的世界》版的《军团要塞2》或《守望先锋》。"  FontFamily="微软雅黑"
+                <TextBlock Text="驾驶一架飞机，在卡通风格的热带天空中翱翔，与其他飞行团队一较高下，看谁才是更出色的飞行员！在这款充满疯狂瞬间的飞机对战小游戏中，与好友一起让混乱尽情上演吧。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/sa.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/winged.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/space-aces/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/winged-1-19-2/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/6cdb8f84d1c4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/45f7a02f30ca"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -105,31 +105,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/pumpkin-party/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/thh/thh_cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="南瓜派对：重制"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="谜宅惊魂"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="Pumpkin Party Remastered 是原版 Pumpkin Party（Minecraft 1.10/1.11/1.12）的重制版本，在原有基础上进行了全面升级： - 更多难度选择 - 更丰富的设置选项 - 更好的游戏平衡性 - 更优秀的游戏设计 - 更多服装选择"  FontFamily="微软雅黑"
+                <TextBlock Text="有一天，科学家Eriot收到了一份奇怪的邀请，邀请他去城外很远的废弃房子。为什么有人会从那里打电话？出于兴趣，Eriot开着他的卡车来到了这座神秘的房子。 在这里，你将以他的角色穿过这座房子，参观走廊、隐藏的房间和带有谜题的大厅，穿越鬼魂以了解你访问的目的。 要穿透一些地方，你首先需要用斧头打破腐烂的木板和玻璃，但逐渐地你会发现更多的工具来摧毁其他障碍物。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/pumpkin-party.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/thh.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/pumpkin-party-remastered/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/the-hauntpuzzled-house/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/c80b83e1c74e"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/3254fb7cdd25"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -152,31 +152,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/ics-2/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/fox2/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="网吧模拟器2"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="狐狸的生活 2"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="创建属于你自己的网吧！ 摆放桌椅和电脑，等待顾客前来游玩并予以批准。收取费用用于电脑升级及其他用途！ 购买街机、电脑、游戏主机和VR设备。 灵感来源： - 《网吧模拟器》 - 《网吧模拟器2》 - 《网吧人生》"  FontFamily="微软雅黑"
+                <TextBlock Text="在[《A Fox's Life》](https://www.planetminecraft.com/project/a-fox-s-life/)之后的故事中，stevo与狐狸共同建造新建筑并提供帮助，确立了狐狸作为怪物之王的地位。然而，stevo因摔落伤害不幸在硬核世界中死亡，无法继续与狐狸并肩作战。狐狸接过领导重任，踏上寻找代表之旅，以再次团结怪物们。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/ics-2.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/fox2.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/internet-cafe-simulator-2/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/a-fox-s-life-2/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/08ac36096163"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/bebf47b25f23"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -199,31 +199,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/hasf/hasf_cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/mineopoly/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="躲猫猫最终版"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="我的大富翁"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="**预告片：** [点击观看预告片](https://www.youtube.com/watch?v=Yq7sqRuyDSc) 你必须使用以下材质包进行游戏：[下载材质包](https://download.mc-packs.net/pack/47f8cdb8cf2a30ff29c409baa89394e1fe1c991a.zip) 建议使用Optifine。 在大厅（树内），你会找到一个压力板。..."  FontFamily="微软雅黑"
+                <TextBlock Text="在 Minecraft 中玩大富翁！ MINEOPOLY 是一个功能完整的经典棋盘游戏《大富翁》的 Minecraft 游戏地图。 游戏支持 **2-6** 名玩家，并包含各种内置系统来处理交易、拍卖、房屋规则等！"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/hasf.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/mineopoly.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/hide-and-seek-1-20-4-3-modes-normal-block-hunt-mob/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/mineopoly-monopoly-in-minecraft/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/524f5ec55bac"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/6ba2ca32cf82"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -246,31 +246,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/candy-land/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/enzzo-kebab/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="糖果大陆"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="Enzzo的烤肉店"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="在Minecraft中重温你童年记忆中的广阔棋盘游戏世界——糖果大陆！召集**2-5**名玩家，战胜对手，成为第一个到达终点的人！ 每几轮就会玩一个小游戏，根据你的表现获得奖励！落在挑战格子上，这将决定你是值得前进还是后退！最后，沿途收集和使用物品，这些物品要么帮助你，要么伤害他人！ 除了44个小游戏、20个挑战和18种物品外，还有4个不同的棋盘可供选择："  FontFamily="微软雅黑"
+                <TextBlock Text="在地图上，你可以实现你制作烤肉串的梦想！ 等着你的有很多有趣的顾客以及大量的订单！ 不要犹豫！下载地图，用你的摊位让世界快乐起来！ 祝你玩得开心！:)"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/candy-land.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/enzzo-kebab.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/candy-land-in-minecraft/"
+                        EventType="打开网页" EventData="https://minecraftmapy.pl/index.php/mapa/5wZAxv"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/4fdceaf60f25"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/90de9354a7a5"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
