@@ -4,7 +4,7 @@ tags:
  - 单人
  - 经营
 created: 2025-09-26
-updated: 2025-09-26
+updated: 2025-11-07
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/enzzo-kebab/cover.png
 ---
 
@@ -13,7 +13,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/enzzo-kebab/cover.png
 ## 基本信息
 
 - 作者：[**RKO**](https://minecraftmapy.pl/index.php/profil/RKO)
-- 原址：[MMY](https://minecraftmapy.pl/index.php/mapa/5wZAxv)
+- 原址：[PMC](https://www.planetminecraft.com/project/enzzo-kebab/)
 - 版本：1.20.4
 - 类型：`单人` `经营`
 - 汉化：[下崽](https://pan.quark.cn/s/90de9354a7a5)
