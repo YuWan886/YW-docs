@@ -6,6 +6,7 @@ tags:
 created: 2025-05-25
 updated: 2025-05-25
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/wyr/cover.jpg
+order: -1
 ---
 
 # Would You Rather | 你宁愿

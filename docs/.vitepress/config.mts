@@ -210,7 +210,8 @@ export default defineConfig({
         useTitleFromFileHeading: true,
         useFolderTitleFromIndexFile: true,
         sortFolderTo: 'top',
-        collapsed: false
+        collapsed: false,
+        sortMenusByFrontmatterOrder: true
       },
       {
         documentRootPath: '/docs/src/posts',

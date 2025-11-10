@@ -6,6 +6,7 @@ tags:
 created: 2025-10-12
 updated: 2025-10-26
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/candy-land/cover.png
+order: -1
 ---
 
 # Candy Land | 糖果大陆
