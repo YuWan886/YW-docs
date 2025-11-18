@@ -74,7 +74,7 @@ const formatDate = (timestamp) => {
 const processedData = computed(() => {
     const archiveMap = {}
     postsData.forEach(post => {
-        const date = new Date(post.updated.time)
+        const date = new Date(post.created.time)
         const year = date.getFullYear()
         const month = String(date.getMonth() + 1).padStart(2, '0')
 
@@ -84,14 +84,24 @@ const processedData = computed(() => {
     })
 
     const sortedYears = Object.keys(archiveMap).sort((a, b) => b - a)
+    const sortedYearMap = {}
+    
     sortedYears.forEach(year => {
         const months = archiveMap[year]
-        Object.keys(months).sort((a, b) => b - a).forEach(month => {
-            months[month].posts.sort((a, b) => b.updated.time - a.updated.time)
+        const sortedMonths = Object.keys(months).sort((a, b) => {
+            const monthA = parseInt(a, 10)
+            const monthB = parseInt(b, 10)
+            return monthB - monthA // 降序排序，确保11月在10月之前
+        })
+        sortedYearMap[year] = {}
+        
+        sortedMonths.forEach(month => {
+            months[month].posts.sort((a, b) => b.created.time - a.created.time)
+            sortedYearMap[year][month] = months[month]
         })
     })
 
-    return { sortedYears, yearMap: archiveMap }
+    return { sortedYears, yearMap: sortedYearMap }
 })
 
 const sortedYears = computed(() => processedData.value.sortedYears)
