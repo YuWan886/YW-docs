@@ -5,7 +5,7 @@ tags:
  - PVP
  - MiniGames
 created: 2025-10-23
-updated: 2025-11-16
+updated: 2025-12-09
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 ---
 
@@ -37,6 +37,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 |---------|----------|
 | **羊毛** | 经典 |
 | **地狱** | 经典 维度：下界 |
+| **玻璃** | 经典 |
 | **海洋** | 特殊 通过钓鱼获得物品，水有剧毒 | 
 
 ### 随机事件
@@ -59,6 +60,9 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 | **断腿** | 无法跳跃 | 
 | **一击必杀** | 玩家攻击伤害变为 40 | 
 | **CREEPER** | 召唤一只苦力怕，有10%的概率出现闪电苦力怕 | 
+| **摸摸** | 玩家实体交互距离变为 10 | 
+| **背包交换** | 玩家背包物品随机交换 | 
+| **国王游戏** | 成王败寇 | 
 
 ### 特殊规则
 
@@ -70,6 +74,14 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 | **大！大！大！** | 玩家尺寸增大为原来的 3/2 |
 | **我的伙伴** | 获得一只狐狸 狐狸存活时,给玩家提供力量和生命回复 |
 | **一击必杀** | 玩家攻击伤害变成 §l40 |
+| **背包交换** | 随机事件固定为 §背包交换 |
+
+### 游戏机制
+
+#### 边界系统
+- 世界边界会随时间逐渐收缩
+- 边界收缩到5格宽后，平台开始崩溃
+- 每次崩溃高度为30格
 
 ## 画廊
 
