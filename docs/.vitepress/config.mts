@@ -187,7 +187,7 @@ export default defineConfig({
       { text: '作品', link: '/posts/creations' },
       { text: '归档', link: '/posts/archives' },
       { text: '标签', link: '/posts/tags' },
-      { text: '团队', link: '/team' },
+      // { text: '团队', link: '/team' },
       {
         text: '更多', items: [
           { "text": '教程', link: '/posts/tutorial' },

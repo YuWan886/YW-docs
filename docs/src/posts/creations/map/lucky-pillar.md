@@ -24,10 +24,12 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 **幸运之柱** 是一款基于 Minecraft 的多人游戏。玩家将随机分布在平台上高耸的柱子上，利用随机发放的物品，应对各种随机事件，击败其他玩家，存活到最后成为胜利者！
 
 ### 核心玩法
+
 - **多人竞技**: 支持 **2-8** 名玩家同场竞技
 - **随机物品**: 每回合随机获得不同的武器和道具
 - **动态事件**: 游戏过程中会触发各种随机事件
 - **生存挑战**: 在有限的平台上生存并击败对手
+- **多语言支持**: 目前支持简体中文、English
 
 ## 主要特色
 
@@ -63,6 +65,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 | **摸摸** | 玩家实体交互距离变为 10 | 
 | **背包交换** | 玩家背包物品随机交换 | 
 | **国王游戏** | 成王败寇 | 
+| **幸运玩偶** | 获得一个玩偶 | 
 
 ### 特殊规则
 
@@ -82,6 +85,13 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 - 世界边界会随时间逐渐收缩
 - 边界收缩到5格宽后，平台开始崩溃
 - 每次崩溃高度为30格
+
+### 管理员指令
+
+| 命令 | 作用 |
+| ----------- | ----------- |
+| `function yw-pillar:game/end` | 直接结束游戏 |
+| `function yw-pillar:utils/game/remove_one_player`   | 处理玩家中途离开 |
 
 ## 画廊
 
