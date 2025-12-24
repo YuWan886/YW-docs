@@ -1,4 +1,4 @@
-.vp-doc a[href^="https://www.youtube.com/"]:before {
+.vp-doc a[href^="https://www.youtube.com/"]:not(:has(img)):before {
     content: '';
     background-image: url(/svg/youtube.svg);
     width: 20px;
@@ -10,7 +10,7 @@
     margin-right: 4px;
 }
 
-.vp-doc a[href^="https://www.bilibili.com/"]:before {
+.vp-doc a[href^="https://www.bilibili.com/"]:not(:has(img)):before {
     content: '';
     background-image: url(/svg/bilibili.svg);
     width: 20px;
@@ -23,7 +23,7 @@
     margin-right: 4px;
 }
 
-.vp-doc a[href^="https://www.planetminecraft.com/"]:before {
+.vp-doc a[href^="https://www.planetminecraft.com/"]:not(:has(img)):before {
     content: '';
     background-image: url(/svg/pmc.svg);
     width: 20px;
@@ -36,7 +36,7 @@
     margin-right: 4px;
 }
 
-.vp-doc a[href^="https://pan.quark.cn/"]:before {
+.vp-doc a[href^="https://pan.quark.cn/"]:not(:has(img)):before {
     content: '';
     background-image: url(/svg/quark.svg);
     width: 20px;
@@ -49,7 +49,7 @@
     margin-right: 4px;
 }
 
-.vp-doc a[href^="https://ifdian.net/"]:before {
+.vp-doc a[href^="https://ifdian.net/"]:not(:has(img)):before {
     content: '';
     background-image: url(/svg/aifadian.svg);
     width: 20px;
@@ -62,7 +62,7 @@
     margin-right: 4px;
 }
 
-.vp-doc a[href^="https://www.curseforge.com/"]:before {
+.vp-doc a[href^="https://www.curseforge.com/"]:not(:has(img)):before {
     content: '';
     background-image: url(/svg/curseforge.svg);
     width: 20px;
@@ -75,7 +75,7 @@
     margin-right: 4px;
 }
 
-.vp-doc a[href^="https://modrinth.com/"]:before {
+.vp-doc a[href^="https://modrinth.com/"]:not(:has(img)):before {
     content: '';
     background-image: url(/svg/modrinth.svg);
     width: 20px;
@@ -88,7 +88,7 @@
     margin-right: 4px;
 }
 
-.vp-doc a[href^="https://minecraft-mcworld.com/"]:before {
+.vp-doc a[href^="https://minecraft-mcworld.com/"]:not(:has(img)):before {
     content: '';
     background-image: url(/img/minecraft-mcworld.png);
     width: 20px;
@@ -101,7 +101,7 @@
     margin-right: 4px;
 }
 
-.vp-doc a[href^="https://minecraft-inside.ru/"]:before {
+.vp-doc a[href^="https://minecraft-inside.ru/"]:not(:has(img)):before {
     content: '';
     background-image: url(/img/minecraft-inside.png);
     width: 20px;
@@ -114,7 +114,7 @@
     margin-right: 4px;
 }
 
-.vp-doc a[href^="https://discord.gg/"]:before {
+.vp-doc a[href^="https://discord.gg/"]:not(:has(img)):before {
     content: '';
     background-image: url(/svg/discord.svg);
     width: 20px;
@@ -127,7 +127,7 @@
     margin-right: 4px;
 }
 
-.vp-doc a[href^="https://github.com/"]:before {
+.vp-doc a[href^="https://github.com/"]:not(:has(img)):before {
     content: '';
     background-image: url(/svg/github.svg);
     width: 20px;
@@ -140,7 +140,7 @@
     margin-right: 4px;
 }
 
-.vp-doc a[href^="https://docs.qq.com/"]:before {
+.vp-doc a[href^="https://docs.qq.com/"]:not(:has(img)):before {
     content: '';
     background-image: url(/svg/docs_qq.svg);
     width: 20px;
