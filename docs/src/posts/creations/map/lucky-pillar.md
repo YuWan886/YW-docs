@@ -19,7 +19,11 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 - 下崽：[点我](https://pan.quark.cn/s/f1c7b348f3c0)
 - 反馈：[点我](https://docs.qq.com/smartsheet/DUUt2UHZvS2RpaUtC?tab=BB08J2)
 
-[![Modrinth](https://img.shields.io/badge/Modrinth-Download-teal?style=for-the-badge&logo=modrinth)](https://modrinth.com/modpack/lucky-pillar) [![CurseForge](https://img.shields.io/badge/CurseForge-Download-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/modpacks/lucky-pillar) [![PlanetMinecraft](https://img.shields.io/badge/PlanetMinecraft-Download-brightgreen?style=for-the-badge&logo=minecraft)](https://www.planetminecraft.com/project/lucky-pillar/) [![MineBBS](https://img.shields.io/badge/MineBBS-Download-blue?style=for-the-badge&logo=minecraft)](https://www.minebbs.com/resources/lucky-pillar.13935/)
+[![Modrinth](https://img.shields.io/badge/Modrinth-Download-teal?style=for-the-badge&logo=modrinth)](https://modrinth.com/modpack/lucky-pillar)
+[![CurseForge](https://img.shields.io/badge/CurseForge-Download-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/modpacks/lucky-pillar)
+[![MinecraftMaps](https://img.shields.io/badge/MinecraftMaps-Download-green?style=for-the-badge&logo=minecraft)](https://www.minecraftmaps.com/51797-lucky-pillar)
+[![PlanetMinecraft](https://img.shields.io/badge/PlanetMinecraft-Download-brightgreen?style=for-the-badge&logo=minecraft)](https://www.planetminecraft.com/project/lucky-pillar/)
+[![MineBBS](https://img.shields.io/badge/MineBBS-Download-blue?style=for-the-badge&logo=minecraft)](https://www.minebbs.com/resources/lucky-pillar.13935/)
 
 ## 介绍
 
@@ -109,8 +113,8 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 
 ```properties
 difficulty=hard
-motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.5§r\n§2作者：§r§b§l§n一条鱼丸_
-resource-pack=https://gh-proxy.com/https://github.com/YuWan886/YuWan-Server/releases/download/pack/1.21.11-Lucky-Pillar.zip
+motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.6-Beta§r\n§2作者：§r§b§l§n一条鱼丸_
+resource-pack=https://gh-proxy.org/https://github.com/YuWan886/YuWan-Server/releases/download/pack1/1.21.11-Lucky-Pillar.zip
 spawn-protection=0
 ```
 
