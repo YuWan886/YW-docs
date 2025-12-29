@@ -7,16 +7,16 @@
                 <h2 class="year-title">{{ year }}年</h2>
             </div>
 
-            <div v-for="(monthData, month) in yearMap[year]" :key="month" class="month-section">
+            <div v-for="monthItem in yearMap[year]" :key="monthItem.month" class="month-section">
                 <div class="month-header">
                     <div class="month-title">
-                        {{ month }}月
+                        {{ monthItem.month }}月
                     </div>
                     <div class="month-line"></div>
                 </div>
 
                 <div class="posts-container">
-                    <a v-for="post in monthData.posts" :key="post.url" :href="post.url" class="post-link"
+                    <a v-for="post in monthItem.data.posts" :key="post.url" :href="post.url" class="post-link"
                         @mouseover="hoverPost = post.url" @mouseleave="hoverPost = null">
                         <div class="post-content" :class="{ 'animate-hover': hoverPost === post.url }">
                             <div class="post-main">
@@ -91,13 +91,16 @@ const processedData = computed(() => {
         const sortedMonths = Object.keys(months).sort((a, b) => {
             const monthA = parseInt(a, 10)
             const monthB = parseInt(b, 10)
-            return monthB - monthA // 降序排序，确保11月在10月之前
+            return monthB - monthA // 降序排序,确保11月在10月之前
         })
-        sortedYearMap[year] = {}
+        sortedYearMap[year] = []
         
         sortedMonths.forEach(month => {
             months[month].posts.sort((a, b) => b.created.time - a.created.time)
-            sortedYearMap[year][month] = months[month]
+            sortedYearMap[year].push({
+                month: month,
+                data: months[month]
+            })
         })
     })
 
