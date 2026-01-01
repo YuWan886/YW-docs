@@ -31,7 +31,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 
 ### 核心玩法
 
-- **多人竞技**: 支持 **2-12** 名玩家同场竞技
+- **多人竞技**: 支持 **2-24** 名玩家同场竞技
 - **随机物品**: 每回合随机获得不同的武器和道具
 - **动态事件**: 游戏过程中会触发各种随机事件
 - **生存挑战**: 在有限的平台上生存并击败对手
@@ -81,6 +81,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 | **巨大化** | 玩家尺寸+4 | 
 | **核电** | 召唤一只名为“坏了坏了”的闪电苦力怕 | 
 | **雨天** | 天气变为雨天，获得一把激流III的三叉戟 | 
+| **贪吃的史莱姆** | 生成一只史莱姆，每吃掉5个掉落物，体积加1 |
 
 ### 特殊规则
 
@@ -93,6 +94,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 | **我的伙伴** | 获得一只狐狸 狐狸存活时,给玩家提供力量和生命回复 |
 | **一击必杀** | 玩家攻击伤害变成 §l40 |
 | **背包交换** | 随机事件固定为 §背包交换 |
+| **I sea you** | 玩家获得 隐身,事件结束后获得 5s 发光 |
 
 ### 游戏机制
 
@@ -106,14 +108,14 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 | 命令 | 作用 |
 | ----------- | ----------- |
 | `function yw-pillar:game/end` | 直接结束游戏 |
-| `function yw-pillar:utils/game/remove_one_player`   | 处理玩家中途离开 |
+| `function yw-pillar:utils/game/player_left_halfway`   | 处理玩家中途离开 |
 | `function yw-pillar:utils/game/skip_event`   | 跳过当前事件 |
 
 ### server.properties
 
 ```properties
 difficulty=hard
-motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.6-Beta§r\n§2作者：§r§b§l§n一条鱼丸_
+motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.6§r\n§2作者：§r§b§l§n一条鱼丸_
 resource-pack=https://gh-proxy.org/https://github.com/YuWan886/YuWan-Server/releases/download/pack1/1.21.11-Lucky-Pillar.zip
 spawn-protection=0
 ```
