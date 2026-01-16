@@ -58,31 +58,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/idol_clash/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/tarius/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="偶像对决"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="塔里乌斯计划"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《偶像对决》是对KitPVP体验的全新诠释，拥有多样化的可玩角色阵容，每个角色都有自己独特的技能需要学习和掌握。从基于Minecraft生物的角色阵容中选择，加入这场对决吧！"  FontFamily="微软雅黑"
+                <TextBlock Text="《塔里乌斯计划》是一个专注于射箭的PVP地图。该项目受 [Infinitri](https://www.minecraftmaps.com/pvp-maps/infinitri) 的启发，但已从头彻底重制。 游戏包含 **5+** 种游戏模式，并提供 **9** 个独特地图，这些地图大小各异。该地图支持任意数量的玩家。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/idol_clash.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/tarius.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/idol-clash"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/project-tarius/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/4b2d3ab926c6"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/8845e56e30f5"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -105,31 +105,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/ks2/ks2_cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/snowy-skirmish/snowy-skirmish.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="连杀2"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="雪地冲突"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="召集好友，在精心打造的竞技场中展开激战！努力在不阵亡的前提下尽可能多地击杀对手。收集各种道具来维持生存并强化自身能力。"  FontFamily="微软雅黑"
+                <TextBlock Text="> ☃️ .*・ ‧❄。゚ •*・ Snowy Skirmish ・*• ゚。❄ ‧ ・*.☃️ > > > 将休闲打雪仗提升到一个新的水平！ >"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/ks2.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/snowy-skirmish.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.brickmasonsmc.com/creations/maps/killstreak"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/snowy-skirmish/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/d6333596c7d6"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/05ad4fc53b7d"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -152,31 +152,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/fpb/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/mb/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="花盆大作战"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="重锤爆破者"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="嘿，花儿！快进花盆里来！ 你曾经想过成为一朵花吗？ 如果答案是肯定的，那么你一定会喜欢这个小游戏。在这张地图里，你需要通过桥连接到地图中心的大花盆，然后跳进去。 游戏中共有四支队伍参与比赛。他们可以通过破坏、阻碍道路，或者干脆击倒对手来互相阻碍。 你应该明智地使用游戏币。花盆不仅可以用来购买物品，还可以用来建造建筑。谁先达到跳进大花盆所需的次数，谁就是赢家。"  FontFamily="微软雅黑"
+                <TextBlock Text="《重锤爆破手》是一款两支队伍——火花队与天劫队——为胜利而战的 PvP 小游戏。超越你的对手，将他们击落以赢得胜利！"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/fpb.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/mb.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://azerusteam.com/map/flower-pot-battle"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/mace-blasters-v1/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/5c8bec4e9f1b"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/25ff19489705"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -199,31 +199,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/enzzo-kebab/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/p/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="Enzzo的烤肉店"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="柱域争锋"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="在地图上，你可以实现你制作烤肉串的梦想！ 等着你的有很多有趣的顾客以及大量的订单！ 不要犹豫！下载地图，用你的摊位让世界快乐起来！ 祝你玩得开心！:)"  FontFamily="微软雅黑"
+                <TextBlock Text="玩家在动态缩小的屏障区域内对抗，通过收集物品、触发事件和策略生存，最终击败对手或团队获胜。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/enzzo-kebab.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/p.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/enzzo-kebab/"
+                        EventType="打开网页" EventData="https://minecraft-inside.ru/maps/176190-pillars-ur-studio.html/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/90de9354a7a5"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/1fe4b0294747"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -246,31 +246,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/dog/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/stm/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="空战"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="超级叛徒之谜"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="- **飞机模型**: 2款 - **炫酷涂装**: 12种 - **精良武器**: 5类 - **主动技能**: 5项 - **被动技能**: 5种 - **游戏模式**: 3种 - **IO模式**: 火力对决击落对手 - **FFA模式**: 大混战生存到最后 - **Tag模式**: 闪电标记攻防战 **地图特色**: 一张辽阔的繁茂地图 **特色系统**: 排行榜"  FontFamily="微软雅黑"
+                <TextBlock Text="《超级叛徒之谜》是一款经典谋杀推理题材的多人对抗游戏，玩家将分为三个阵营：叛徒、无辜者与侦探。叛徒需要消灭所有无辜者，而无辜者必须在为时已晚前识破叛徒身份并将其清除。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/dog.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/stm.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.brickmasonsmc.com/creations/maps/dogfight"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/super-murder-mystery/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/e506a8e770f1"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/22e802b3a525"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
