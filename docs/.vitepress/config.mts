@@ -199,7 +199,7 @@ export default defineConfig({
     ],
     //编辑模式
     editLink: {
-      pattern: 'https://github.com/fishlanding/YW-docs/edit/main/docs/src/:path',
+      pattern: 'https://github.com/YuWan886/YW-docs/edit/main/docs/src/:path',
       text: '在 Github 上编辑此页'
     },
     //自动侧边栏
