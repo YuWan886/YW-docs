@@ -152,3 +152,16 @@
     top: -2px;
     margin-right: 4px;
 }
+
+.vp-doc a[href^="https://www.mcmod.cn/"]:not(:has(img)):before {
+    content: '';
+    background-image: url(/img/mcmod.ico);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
