@@ -5,7 +5,7 @@ tags:
  - PVP
  - MiniGames
 created: 2025-10-23
-updated: 2026-01-18
+updated: 2026-02-08
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 ---
 
@@ -31,7 +31,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 
 ### 核心玩法
 
-- **多人竞技**: 支持 **2-24** 名玩家同场竞技
+- **多人竞技**: 支持 **2-∞** 名玩家同场竞技
 - **随机物品**: 每回合随机获得不同的武器和道具
 - **动态事件**: 游戏过程中会触发各种随机事件
 - **生存挑战**: 在有限的平台上生存并击败对手
@@ -48,6 +48,8 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 | **地狱** | 经典 维度：下界 |
 | **玻璃** | 经典 |
 | **虚空** | 经典 |
+| **TNT** | 经典 |
+| **活板门** | 经典 |
 | **海洋** | 特殊 通过钓鱼获得物品，水有剧毒 | 
 | **月球** | 特殊 低重力 |
 
@@ -83,6 +85,8 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 | **核电** | 召唤一只名为“坏了坏了”的闪电苦力怕 | 
 | **雨天** | 天气变为雨天，获得一把激流III的三叉戟 | 
 | **贪吃的史莱姆** | 生成一只史莱姆，每吃掉5个掉落物，体积加1 |
+| **位置交换** | 玩家位置随机交换 |
+| **岩浆上升** | 岩浆会以每秒1格的速度上升 | 
 
 ### 特殊规则
 
@@ -123,7 +127,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 
 ```properties
 difficulty=hard
-motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.7§r\n§2作者：§r§b§l§n一条鱼丸_
+motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.8§r\n§2作者：§r§b§l§n一条鱼丸_
 resource-pack=https://gh-proxy.org/https://github.com/YuWan886/YuWan-Server/releases/download/pack1/1.21.11-Lucky-Pillar.zip
 spawn-protection=0
 ```
