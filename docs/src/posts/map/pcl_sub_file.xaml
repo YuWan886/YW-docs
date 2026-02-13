@@ -58,31 +58,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/p/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/mcp2/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="柱域争锋"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="MC派对2"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="玩家在动态缩小的屏障区域内对抗，通过收集物品、触发事件和策略生存，最终击败对手或团队获胜。"  FontFamily="微软雅黑"
+                <TextBlock Text="**Minecraft Party 2** 是一款受《马里奥派对》启发的 4-10 人游戏，包含以下特色： - **100 种小游戏**： - 34 个自由对抗小游戏 - 14 个 2v2 小游戏 - 14 个 1v3 小游戏 - 9 个战斗小游戏 - 7 个金币小游戏 - 14 个决斗小游戏 - 8 个迷你决斗小游戏 - **30+ 种可使用道具** - **15 张独特游戏地图** - **标..."  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/p.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/mcp2.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://minecraft-inside.ru/maps/176190-pillars-ur-studio.html/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/minecraft-party-2-6030280/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/1fe4b0294747"
+                        EventType="打开网页" EventData=""
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -105,31 +105,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/fg/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/ttr/ttr-cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="糖豆人"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="皇家坦克大战"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《糖豆人》是一款基于MC的小游戏地图，灵感来源于热门游戏《Fall Guys》。该地图将《Fall Guys》中的部分关卡以MC的方式重现。"  FontFamily="微软雅黑"
+                <TextBlock Text="Toy Tank Royale 是一款 .io 风格的 PVP 游戏，您可以在其中驾驶可爱的小坦克与朋友战斗。 获得最高数量的金币来领取 Royale Crown。 不过要小心……当你死时，你会掉落一半的硬币！"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/fg.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/ttr.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.koreaminecraft.net/map/2930183"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/toy-tank-royale-pvp-minigame/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/e2f48539bffd"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/6925068dc547"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -152,31 +152,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/idol_clash/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/duel-tnt/dt_cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="偶像对决"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="TNT决斗"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《偶像对决》是对KitPVP体验的全新诠释，拥有多样化的可玩角色阵容，每个角色都有自己独特的技能需要学习和掌握。从基于Minecraft生物的角色阵容中选择，加入这场对决吧！"  FontFamily="微软雅黑"
+                <TextBlock Text="是时候以爆炸性的方式与你的朋友们一决高下了！穿上装备，在竞技场中与人战斗。这里没有总冠军，只是一款有趣且友好的竞技场 PvP 游戏。 希望你们喜欢这个爆炸的游戏！ 你能找到所有 11 个职业吗？;) 全新职业—**碎星** 请务必安装资源包！（[链接](https://www.dropbox.com/scl/fi/q2w538pgswq2my9d6xu41/Season9.2.4c_pack.zi..."  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/idol_clash.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/dt.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/idol-clash"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/duel-tnt-realms-published-1-12-and-1-11/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/4b2d3ab926c6"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/e55e73a1fc90"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -199,31 +199,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/ms2/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/fpb/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="Makers的掘一死战"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="花盆大作战"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="挖掘对手脚下的方块让他们掉落到羊毛上！"  FontFamily="微软雅黑"
+                <TextBlock Text="嘿，花儿！快进花盆里来！ 你曾经想过成为一朵花吗？ 如果答案是肯定的，那么你一定会喜欢这个小游戏。在这张地图里，你需要通过桥连接到地图中心的大花盆，然后跳进去。 游戏中共有四支队伍参与比赛。他们可以通过破坏、阻碍道路，或者干脆击倒对手来互相阻碍。 你应该明智地使用游戏币。花盆不仅可以用来购买物品，还可以用来建造建筑。谁先达到跳进大花盆所需的次数，谁就是赢家。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/ms2.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/fpb.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://minemakers.net/makers-spleef-2"
+                        EventType="打开网页" EventData="https://azerusteam.com/map/flower-pot-battle"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/fffd27ff54e4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/5c8bec4e9f1b"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -246,31 +246,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/hasr/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/gaggle/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="躲猫猫：复兴"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="进击的大鹅"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《捉迷藏：复兴》——在这张地图中，你将探索十六个独特场景，解锁各种能力，自定义地图设置，体验丰富剧情以及更多内容。无论是与朋友联机、参与活动，还是多人同乐，这张地图都能带来绝佳体验。 **场景包括**：儿童房、浴室、车库、小院、书房、储藏室、客厅、卧室、厨房、《玩具熊的五夜后宫1-4》、林间空地、下界、沙漠、海洋、沙漠2（Dust II）、城市、蟹堡王（Krasty Krab）以及《致命公司》（L..."  FontFamily="微软雅黑"
+                <TextBlock Text="《进击的大鹅》是一款以搞笑大鹅和它们的危险枪支为主角的 FPS 小游戏。 在**进击的大鹅**中，你可以玩 7 种不同的模式，包括自由对战、团队战斗、夺旗和感染模式。 在独特的地点与朋友进行史诗般的战斗，或者邀请他们与你一起对抗 AI 进行训练。 解锁所有武器，自定义你的外观，并消灭大鹅！ 战场上见，大鹅们！"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/hasr.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/gaggle.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://minecraft-inside.ru/maps/153299-hide-seek.html"
+                        EventType="打开网页" EventData="https://www.brickmasonsmc.com/creations/maps/tactical-gaggle"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/73c73eb13adf"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/2b0165ea8df4"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
