@@ -58,6 +58,53 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/stealthiators/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <!-- 右侧内容区域 -->
+            <StackPanel Grid.Column="1" Margin="12,0,0,0">
+                <!-- 标题 -->
+                <TextBlock Text="寻踪追迹"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
+                
+                <!-- 描述 -->
+                <TextBlock Text="在《寻踪追迹》中偷偷冲向终点线吧！游戏分为两支队伍：跑者与角斗士。角斗士的目标是在跑者抵达终点前击中他们。跑者全程隐形，仅靴子可见，这意味着他们可以躲藏在任何高度超过一个方块的障碍物后面。 本地图包含： - 随机生成的地图每局游戏 - 八个独特职业角色 - 配备专属配音角色的超大等候大厅 - 三叉戟小游戏 尽情享受潜行乐趣吧！"  FontFamily="微软雅黑"
+                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
+                
+                <!-- 按钮区域 -->
+                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/stealthiators.html"
+                        Background="#e5e7eb" Foreground="#374151" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/stealthiators/"
+                        Background="#fee2e2" Foreground="#b91c1c" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/bccebe47755b"
+                        Background="#d1fae5" Foreground="#065f46" 
+                        BorderThickness="0"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</local:MyCard>
+
+
+<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
+    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
+        </Border.Effect>
+        <Grid Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- 左侧图片区域 -->
+            <Border Grid.Column="0" Width="120" Height="68"  >
                 <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/mcp2/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
@@ -105,6 +152,100 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/stm/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <!-- 右侧内容区域 -->
+            <StackPanel Grid.Column="1" Margin="12,0,0,0">
+                <!-- 标题 -->
+                <TextBlock Text="超级叛徒之谜"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
+                
+                <!-- 描述 -->
+                <TextBlock Text="《超级叛徒之谜》是一款经典谋杀推理题材的多人对抗游戏，玩家将分为三个阵营：叛徒、无辜者与侦探。叛徒需要消灭所有无辜者，而无辜者必须在为时已晚前识破叛徒身份并将其清除。"  FontFamily="微软雅黑"
+                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
+                
+                <!-- 按钮区域 -->
+                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/stm.html"
+                        Background="#e5e7eb" Foreground="#374151" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/super-murder-mystery/"
+                        Background="#fee2e2" Foreground="#b91c1c" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/22e802b3a525"
+                        Background="#d1fae5" Foreground="#065f46" 
+                        BorderThickness="0"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</local:MyCard>
+
+
+<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
+    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
+        </Border.Effect>
+        <Grid Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- 左侧图片区域 -->
+            <Border Grid.Column="0" Width="120" Height="68"  >
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/wyr/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <!-- 右侧内容区域 -->
+            <StackPanel Grid.Column="1" Margin="12,0,0,0">
+                <!-- 标题 -->
+                <TextBlock Text="你宁愿"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
+                
+                <!-- 描述 -->
+                <TextBlock Text="《你宁愿》是由Gene主持的趣味游戏节目！你将面临各种两难选择，比如成为矿工还是去煮汤。在限定时间内完成挑战即可获得积分。最终积分最高的玩家将成为《你宁愿》的冠军！ 本地图包含： - 20+个迷你游戏将出现在问题中 - 可解锁的领奖台 - 为你加油的观众 - 额外的颁奖典礼环节 祝你在《你宁愿》中取得胜利！"  FontFamily="微软雅黑"
+                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
+                
+                <!-- 按钮区域 -->
+                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/wyr.html"
+                        Background="#e5e7eb" Foreground="#374151" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/would-you-rather-4897801/"
+                        Background="#fee2e2" Foreground="#b91c1c" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/6aacf7b7dee8"
+                        Background="#d1fae5" Foreground="#065f46" 
+                        BorderThickness="0"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</local:MyCard>
+
+
+<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
+    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
+        </Border.Effect>
+        <Grid Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- 左侧图片区域 -->
+            <Border Grid.Column="0" Width="120" Height="68"  >
                 <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/ttr/ttr-cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
@@ -130,147 +271,6 @@
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
                         EventType="打开网页" EventData="https://pan.quark.cn/s/6925068dc547"
-                        Background="#d1fae5" Foreground="#065f46" 
-                        BorderThickness="0"/>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
-    </Border>
-</local:MyCard>
-
-
-<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
-    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
-        <Border.Effect>
-            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
-        </Border.Effect>
-        <Grid Margin="12">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            
-            <!-- 左侧图片区域 -->
-            <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/duel-tnt/dt_cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Border>
-            
-            <!-- 右侧内容区域 -->
-            <StackPanel Grid.Column="1" Margin="12,0,0,0">
-                <!-- 标题 -->
-                <TextBlock Text="TNT决斗"  FontWeight="SemiBold" FontFamily="微软雅黑"
-                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
-                
-                <!-- 描述 -->
-                <TextBlock Text="是时候以爆炸性的方式与你的朋友们一决高下了！穿上装备，在竞技场中与人战斗。这里没有总冠军，只是一款有趣且友好的竞技场 PvP 游戏。 希望你们喜欢这个爆炸的游戏！ 你能找到所有 11 个职业吗？;) 全新职业—**碎星** 请务必安装资源包！（[链接](https://www.dropbox.com/scl/fi/q2w538pgswq2my9d6xu41/Season9.2.4c_pack.zi..."  FontFamily="微软雅黑"
-                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
-                
-                <!-- 按钮区域 -->
-                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
-                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/dt.html"
-                        Background="#e5e7eb" Foreground="#374151" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/duel-tnt-realms-published-1-12-and-1-11/"
-                        Background="#fee2e2" Foreground="#b91c1c" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/e55e73a1fc90"
-                        Background="#d1fae5" Foreground="#065f46" 
-                        BorderThickness="0"/>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
-    </Border>
-</local:MyCard>
-
-
-<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
-    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
-        <Border.Effect>
-            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
-        </Border.Effect>
-        <Grid Margin="12">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            
-            <!-- 左侧图片区域 -->
-            <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/fpb/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Border>
-            
-            <!-- 右侧内容区域 -->
-            <StackPanel Grid.Column="1" Margin="12,0,0,0">
-                <!-- 标题 -->
-                <TextBlock Text="花盆大作战"  FontWeight="SemiBold" FontFamily="微软雅黑"
-                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
-                
-                <!-- 描述 -->
-                <TextBlock Text="嘿，花儿！快进花盆里来！ 你曾经想过成为一朵花吗？ 如果答案是肯定的，那么你一定会喜欢这个小游戏。在这张地图里，你需要通过桥连接到地图中心的大花盆，然后跳进去。 游戏中共有四支队伍参与比赛。他们可以通过破坏、阻碍道路，或者干脆击倒对手来互相阻碍。 你应该明智地使用游戏币。花盆不仅可以用来购买物品，还可以用来建造建筑。谁先达到跳进大花盆所需的次数，谁就是赢家。"  FontFamily="微软雅黑"
-                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
-                
-                <!-- 按钮区域 -->
-                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
-                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/fpb.html"
-                        Background="#e5e7eb" Foreground="#374151" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://azerusteam.com/map/flower-pot-battle"
-                        Background="#fee2e2" Foreground="#b91c1c" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/5c8bec4e9f1b"
-                        Background="#d1fae5" Foreground="#065f46" 
-                        BorderThickness="0"/>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
-    </Border>
-</local:MyCard>
-
-
-<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
-    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
-        <Border.Effect>
-            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
-        </Border.Effect>
-        <Grid Margin="12">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            
-            <!-- 左侧图片区域 -->
-            <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/gaggle/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Border>
-            
-            <!-- 右侧内容区域 -->
-            <StackPanel Grid.Column="1" Margin="12,0,0,0">
-                <!-- 标题 -->
-                <TextBlock Text="进击的大鹅"  FontWeight="SemiBold" FontFamily="微软雅黑"
-                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
-                
-                <!-- 描述 -->
-                <TextBlock Text="《进击的大鹅》是一款以搞笑大鹅和它们的危险枪支为主角的 FPS 小游戏。 在**进击的大鹅**中，你可以玩 7 种不同的模式，包括自由对战、团队战斗、夺旗和感染模式。 在独特的地点与朋友进行史诗般的战斗，或者邀请他们与你一起对抗 AI 进行训练。 解锁所有武器，自定义你的外观，并消灭大鹅！ 战场上见，大鹅们！"  FontFamily="微软雅黑"
-                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
-                
-                <!-- 按钮区域 -->
-                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
-                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/gaggle.html"
-                        Background="#e5e7eb" Foreground="#374151" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.brickmasonsmc.com/creations/maps/tactical-gaggle"
-                        Background="#fee2e2" Foreground="#b91c1c" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/2b0165ea8df4"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
