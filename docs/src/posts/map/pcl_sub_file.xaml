@@ -58,31 +58,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/stealthiators/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/intervention/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="寻踪追迹"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="干预行动"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="在《寻踪追迹》中偷偷冲向终点线吧！游戏分为两支队伍：跑者与角斗士。角斗士的目标是在跑者抵达终点前击中他们。跑者全程隐形，仅靴子可见，这意味着他们可以躲藏在任何高度超过一个方块的障碍物后面。 本地图包含： - 随机生成的地图每局游戏 - 八个独特职业角色 - 配备专属配音角色的超大等候大厅 - 三叉戟小游戏 尽情享受潜行乐趣吧！"  FontFamily="微软雅黑"
+                <TextBlock Text="《干预行动》是一款支持**5-12**人参与的PVP对抗游戏。玩家需凭借谋略、创造力与观察力智取对手。通过自定义装备制定战术，同时隐藏自己的配置——因为你的道具仅对自己可见！预判敌人行动以夺取更多分数，最终赢得胜利。 **建议**：游戏过程中使用语音或游戏内聊天功能交流。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/stealthiators.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/intervention.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/stealthiators/"
+                        EventType="打开网页" EventData="https://www.curseforge.com/minecraft/worlds/intervention"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/bccebe47755b"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/43118a06e636"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -105,78 +105,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/mcp2/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/aghanim-labyrinth/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="MC派对2"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="阿哈利姆的迷宫 2"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="**Minecraft Party 2** 是一款受《马里奥派对》启发的 4-10 人游戏，包含以下特色： - **100 种小游戏**： - 34 个自由对抗小游戏 - 14 个 2v2 小游戏 - 14 个 1v3 小游戏 - 9 个战斗小游戏 - 7 个金币小游戏 - 14 个决斗小游戏 - 8 个迷你决斗小游戏 - **30+ 种可使用道具** - **15 张独特游戏地图** - **标..."  FontFamily="微软雅黑"
+                <TextBlock Text="这是我备受期待的PVE地图续作！原为Dota 2中的自定义模式，《阿哈利姆的迷宫2：连续体谜题》现已在Minecraft中忠实重现。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/mcp2.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/aghanim-labyrinth-2.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/minecraft-party-2-6030280/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/aghanim-s-labyrinth-2-roguelike-pve-map/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData=""
-                        Background="#d1fae5" Foreground="#065f46" 
-                        BorderThickness="0"/>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
-    </Border>
-</local:MyCard>
-
-
-<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
-    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
-        <Border.Effect>
-            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
-        </Border.Effect>
-        <Grid Margin="12">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            
-            <!-- 左侧图片区域 -->
-            <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/stm/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Border>
-            
-            <!-- 右侧内容区域 -->
-            <StackPanel Grid.Column="1" Margin="12,0,0,0">
-                <!-- 标题 -->
-                <TextBlock Text="超级叛徒之谜"  FontWeight="SemiBold" FontFamily="微软雅黑"
-                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
-                
-                <!-- 描述 -->
-                <TextBlock Text="《超级叛徒之谜》是一款经典谋杀推理题材的多人对抗游戏，玩家将分为三个阵营：叛徒、无辜者与侦探。叛徒需要消灭所有无辜者，而无辜者必须在为时已晚前识破叛徒身份并将其清除。"  FontFamily="微软雅黑"
-                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
-                
-                <!-- 按钮区域 -->
-                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
-                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/stm.html"
-                        Background="#e5e7eb" Foreground="#374151" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/super-murder-mystery/"
-                        Background="#fee2e2" Foreground="#b91c1c" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/22e802b3a525"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/17dd5184e1b5"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -246,31 +199,78 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/ttr/ttr-cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/tc/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="皇家坦克大战"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="试炼冠军"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="Toy Tank Royale 是一款 .io 风格的 PVP 游戏，您可以在其中驾驶可爱的小坦克与朋友战斗。 获得最高数量的金币来领取 Royale Crown。 不过要小心……当你死时，你会掉落一半的硬币！"  FontFamily="微软雅黑"
+                <TextBlock Text="拥有超过20个职业PvP地图，每个职业都有特殊能力、武器和机制可供选择！ 在6个战场中战斗，成为冠军！"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/ttr.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/tc.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/toy-tank-royale-pvp-minigame/"
+                        EventType="打开网页" EventData="https://www.curseforge.com/minecraft/worlds/trial-champions"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/6925068dc547"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/d3538bfba74f"
+                        Background="#d1fae5" Foreground="#065f46" 
+                        BorderThickness="0"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</local:MyCard>
+
+
+<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
+    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
+        </Border.Effect>
+        <Grid Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- 左侧图片区域 -->
+            <Border Grid.Column="0" Width="120" Height="68"  >
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/fox2/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <!-- 右侧内容区域 -->
+            <StackPanel Grid.Column="1" Margin="12,0,0,0">
+                <!-- 标题 -->
+                <TextBlock Text="狐狸的生活 2"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
+                
+                <!-- 描述 -->
+                <TextBlock Text="在[《A Fox's Life》](https://www.planetminecraft.com/project/a-fox-s-life/)之后的故事中，stevo与狐狸共同建造新建筑并提供帮助，确立了狐狸作为怪物之王的地位。然而，stevo因摔落伤害不幸在硬核世界中死亡，无法继续与狐狸并肩作战。狐狸接过领导重任，踏上寻找代表之旅，以再次团结怪物们。"  FontFamily="微软雅黑"
+                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
+                
+                <!-- 按钮区域 -->
+                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/fox2.html"
+                        Background="#e5e7eb" Foreground="#374151" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/a-fox-s-life-2/"
+                        Background="#fee2e2" Foreground="#b91c1c" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/bebf47b25f23"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
