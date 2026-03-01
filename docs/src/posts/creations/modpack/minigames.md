@@ -19,6 +19,7 @@ cover:
   { src: 'https://cdn.modrinth.com/data/mHeNceaH/images/e6038c28c8b95fdfa0169542d4e0b4892a3ec703_350.webp'},
   { src: 'https://cdn.modrinth.com/data/mHeNceaH/images/cc432e0e8eb2c02a14068c1700bbc35bb2408ca2_350.webp'}
 ]" />
+
 - [**Yet Another Bingo**](https://modrinth.com/mod/yet-another-minecraft-bingo)
 
 ## Peak Craft
@@ -101,4 +102,9 @@ Two Dimensional: Reloaded 通过移除对三维的访问，并将玩家的移动
   { src: 'https://cdn.modrinth.com/data/cached_images/f78d88d29aed0b205271cf778d802f8a737b1629_0.webp'},
   { src: 'https://github.com/user-attachments/assets/881fa853-065f-45e0-b755-1cb141ae8f0e'}
 ]" />
+
 - [**Starcatcher**](https://modrinth.com/mod/starcatcher)
+
+## 说话声音过大就会爆炸
+
+- [**Explode When Loud**](https://www.curseforge.com/minecraft/mc-mods/explode-when-loud)
