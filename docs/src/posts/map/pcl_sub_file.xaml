@@ -58,31 +58,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/ms2/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/fox2/cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="Makers的掘一死战"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="狐狸的生活 2"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="挖掘对手脚下的方块让他们掉落到羊毛上！"  FontFamily="微软雅黑"
+                <TextBlock Text="在[《A Fox's Life》](https://www.planetminecraft.com/project/a-fox-s-life/)之后的故事中，stevo与狐狸共同建造新建筑并提供帮助，确立了狐狸作为怪物之王的地位。然而，stevo因摔落伤害不幸在硬核世界中死亡，无法继续与狐狸并肩作战。狐狸接过领导重任，踏上寻找代表之旅，以再次团结怪物们。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/ms2.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/fox2.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://minemakers.net/makers-spleef-2"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/a-fox-s-life-2/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/fffd27ff54e4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/bebf47b25f23"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -105,125 +105,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/idol_clash/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/snowy-skirmish/snowy-skirmish.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="偶像对决"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="雪地冲突"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《偶像对决》是对KitPVP体验的全新诠释，拥有多样化的可玩角色阵容，每个角色都有自己独特的技能需要学习和掌握。从基于Minecraft生物的角色阵容中选择，加入这场对决吧！"  FontFamily="微软雅黑"
+                <TextBlock Text="> ☃️ .*・ ‧❄。゚ •*・ Snowy Skirmish ・*• ゚。❄ ‧ ・*.☃️ > > > 将休闲打雪仗提升到一个新的水平！ >"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/idol_clash.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/snowy-skirmish.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/idol-clash"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/snowy-skirmish/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/4b2d3ab926c6"
-                        Background="#d1fae5" Foreground="#065f46" 
-                        BorderThickness="0"/>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
-    </Border>
-</local:MyCard>
-
-
-<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
-    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
-        <Border.Effect>
-            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
-        </Border.Effect>
-        <Grid Margin="12">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            
-            <!-- 左侧图片区域 -->
-            <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/hmw/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Border>
-            
-            <!-- 右侧内容区域 -->
-            <StackPanel Grid.Column="1" Margin="12,0,0,0">
-                <!-- 标题 -->
-                <TextBlock Text="蜂蜜导弹战争"  FontWeight="SemiBold" FontFamily="微软雅黑"
-                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
-                
-                <!-- 描述 -->
-                <TextBlock Text="一场颠覆传统的经典导弹大战！向好友发射TNT活塞飞行器，炸穿他们的城墙！"  FontFamily="微软雅黑"
-                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
-                
-                <!-- 按钮区域 -->
-                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
-                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/hmw.html"
-                        Background="#e5e7eb" Foreground="#374151" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.minecraftmaps.com/48564-honey-missile-wars"
-                        Background="#fee2e2" Foreground="#b91c1c" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/e2469cb81409"
-                        Background="#d1fae5" Foreground="#065f46" 
-                        BorderThickness="0"/>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
-    </Border>
-</local:MyCard>
-
-
-<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
-    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
-        <Border.Effect>
-            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
-        </Border.Effect>
-        <Grid Margin="12">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            
-            <!-- 左侧图片区域 -->
-            <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/battle-of-the-bands/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Border>
-            
-            <!-- 右侧内容区域 -->
-            <StackPanel Grid.Column="1" Margin="12,0,0,0">
-                <!-- 标题 -->
-                <TextBlock Text="乐队之战"  FontWeight="SemiBold" FontFamily="微软雅黑"
-                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
-                
-                <!-- 描述 -->
-                <TextBlock Text="Xaleem的乐队之战：由LunaEclipse制作的地图！ 要逃离到主世界， 你必须在这场乐队之战中穿越一系列紧张刺激、布满弹射物的地下城！ **额外鸣谢：** - Technodono（音乐） - Xyphia（建筑）"  FontFamily="微软雅黑"
-                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
-                
-                <!-- 按钮区域 -->
-                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
-                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/battle-of-the-bands.html"
-                        Background="#e5e7eb" Foreground="#374151" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.fingermaps.net/maps/battle-of-the-bands"
-                        Background="#fee2e2" Foreground="#b91c1c" 
-                        BorderThickness="0"/>
-                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/03da8fd6f2f1"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/05ad4fc53b7d"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -271,6 +177,100 @@
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
                         EventType="打开网页" EventData="https://pan.quark.cn/s/01606672ba5d"
+                        Background="#d1fae5" Foreground="#065f46" 
+                        BorderThickness="0"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</local:MyCard>
+
+
+<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
+    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
+        </Border.Effect>
+        <Grid Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- 左侧图片区域 -->
+            <Border Grid.Column="0" Width="120" Height="68"  >
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/candy-land/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <!-- 右侧内容区域 -->
+            <StackPanel Grid.Column="1" Margin="12,0,0,0">
+                <!-- 标题 -->
+                <TextBlock Text="糖果大陆"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
+                
+                <!-- 描述 -->
+                <TextBlock Text="在Minecraft中重温你童年记忆中的广阔棋盘游戏世界——糖果大陆！召集**2-5**名玩家，战胜对手，成为第一个到达终点的人！ 每几轮就会玩一个小游戏，根据你的表现获得奖励！落在挑战格子上，这将决定你是值得前进还是后退！最后，沿途收集和使用物品，这些物品要么帮助你，要么伤害他人！ 除了44个小游戏、20个挑战和18种物品外，还有4个不同的棋盘可供选择："  FontFamily="微软雅黑"
+                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
+                
+                <!-- 按钮区域 -->
+                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/candy-land.html"
+                        Background="#e5e7eb" Foreground="#374151" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/candy-land-in-minecraft/"
+                        Background="#fee2e2" Foreground="#b91c1c" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/4fdceaf60f25"
+                        Background="#d1fae5" Foreground="#065f46" 
+                        BorderThickness="0"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</local:MyCard>
+
+
+<local:MyCard Title="" Margin="0,0,0,16" CanSwap="False" IsSwaped="false">
+    <Border Background="#ffffff"  BorderThickness="1" BorderBrush="#e5e7eb">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.1" Direction="270"/>
+        </Border.Effect>
+        <Grid Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- 左侧图片区域 -->
+            <Border Grid.Column="0" Width="120" Height="68"  >
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/winged/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <!-- 右侧内容区域 -->
+            <StackPanel Grid.Column="1" Margin="12,0,0,0">
+                <!-- 标题 -->
+                <TextBlock Text="空翼对决"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                           Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
+                
+                <!-- 描述 -->
+                <TextBlock Text="驾驶一架飞机，在卡通风格的热带天空中翱翔，与其他飞行团队一较高下，看谁才是更出色的飞行员！在这款充满疯狂瞬间的飞机对战小游戏中，与好友一起让混乱尽情上演吧。"  FontFamily="微软雅黑"
+                           Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
+                
+                <!-- 按钮区域 -->
+                <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                    <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/winged.html"
+                        Background="#e5e7eb" Foreground="#374151" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/winged-1-19-2/"
+                        Background="#fee2e2" Foreground="#b91c1c" 
+                        BorderThickness="0"/>
+                    <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/45f7a02f30ca"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
