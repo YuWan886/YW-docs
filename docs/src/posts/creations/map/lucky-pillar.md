@@ -5,7 +5,7 @@ tags:
  - PVP
  - MiniGames
 created: 2025-10-23
-updated: 2026-02-15
+updated: 2026-04-01
 cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 ---
 
@@ -14,7 +14,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 ## 基本信息
 
 - 仓库：[**Github**](https://github.com/YuWan886/Lucky-Pillar)
-- 版本：1.21.11
+- 版本：26.1
 - 类型：`多人` `PVP` `MiniGames`
 - 下崽：[点我](https://pan.quark.cn/s/f1c7b348f3c0)
 - 反馈：[点我](https://docs.qq.com/smartsheet/DUUt2UHZvS2RpaUtC?tab=BB08J2)
@@ -130,8 +130,8 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/map/lucky-pillar/cover.png
 
 ```properties
 difficulty=hard
-motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.9§r\n§2作者：§r§b§l§n一条鱼丸_
-resource-pack=https://gh-proxy.org/https://github.com/YuWan886/YuWan-Server/releases/download/pack1/1.21.11-Lucky-Pillar.zip
+motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.2.0§r\n§2作者：§r§b§l§n一条鱼丸_
+resource-pack=https://gh-proxy.org/https://github.com/YuWan886/YuWan-Server/releases/download/pack1/26.1-Lucky-Pillar.zip
 spawn-protection=0
 ```
 
