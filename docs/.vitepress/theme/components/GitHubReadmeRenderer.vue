@@ -1,27 +1,20 @@
 <template>
   <div class="github-readme-renderer">
-    <!-- 头部仓库链接 -->
     <div class="repo-header">
       <a :href="repoUrl" target="_blank" class="repo-link">
-        <svg class="github-icon" viewBox="0 0 16 16" width="16" height="16">
-          <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-        </svg>
         在GitHub上查看 {{ repoName }}
       </a>
     </div>
     
-    <!-- 加载状态 -->
     <div v-if="loading" class="loading-container">
       <p>正在加载 README...</p>
     </div>
     
-    <!-- 错误状态 -->
     <div v-else-if="error" class="error-container">
       <p>加载失败: {{ error }}</p>
       <button @click="fetchReadme" class="retry-btn">重试</button>
     </div>
     
-    <!-- 内容展示 -->
     <div v-else class="readme-content">
       <div v-html="renderedContent" class="markdown-body"></div>
     </div>
@@ -31,10 +24,16 @@
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
 import { useData } from 'vitepress'
-import { marked } from 'marked'
+import MarkdownIt from 'markdown-it'
 import DOMPurify from 'dompurify'
 
-// 定义组件属性
+const md = new MarkdownIt({
+  html: true,
+  breaks: true,
+  linkify: true,
+  typographer: true
+})
+
 const props = defineProps({
   repo: {
     type: String,
@@ -45,32 +44,26 @@ const props = defineProps({
   }
 })
 
-// 使用Vitepress的数据钩子获取主题信息
 const { isDark } = useData()
 
-// 响应式数据
 const loading = ref(true)
 const error = ref(null)
 const readmeContent = ref('')
 const renderedContent = ref('')
 
-// 计算属性
 const repoUrl = computed(() => `https://github.com/${props.repo}`)
 const repoName = computed(() => props.repo.split('/')[1])
 const readmeApiUrl = computed(() => {
   return `https://api.github.com/repos/${props.repo}/readme`
 })
 
-// 缓存键名
 const cacheKey = computed(() => `github-readme:${props.repo}`)
 
-// 获取原始README内容
 const fetchReadme = async () => {
   try {
     loading.value = true
     error.value = null
     
-    // 检查是否有缓存
     const cachedData = getCachedData()
     if (cachedData) {
       readmeContent.value = cachedData.content
@@ -81,7 +74,7 @@ const fetchReadme = async () => {
     
     const response = await fetch(readmeApiUrl.value, {
       headers: {
-        'Accept': 'application/vnd.github.v3.raw+json'
+        'Accept': 'application/vnd.github.v3.raw'
       }
     })
     
@@ -93,7 +86,6 @@ const fetchReadme = async () => {
     readmeContent.value = content
     renderMarkdown(content)
     
-    // 缓存结果
     cacheData(content)
   } catch (err) {
     console.error('获取README失败:', err)
@@ -103,14 +95,12 @@ const fetchReadme = async () => {
   }
 }
 
-// 从缓存获取数据
 const getCachedData = () => {
   try {
     const cached = localStorage.getItem(cacheKey.value)
     if (!cached) return null
     
     const { content, timestamp } = JSON.parse(cached)
-    // 检查缓存是否过期（1小时）
     const isExpired = Date.now() - timestamp > 60 * 60 * 1000
     
     return isExpired ? null : { content }
@@ -120,7 +110,6 @@ const getCachedData = () => {
   }
 }
 
-// 缓存数据
 const cacheData = (content) => {
   try {
     const data = {
@@ -133,33 +122,66 @@ const cacheData = (content) => {
   }
 }
 
-// 渲染Markdown内容
 const renderMarkdown = (content) => {
   try {
-    // 使用marked解析Markdown
-    const rawHtml = marked.parse(content, {
-      breaks: true,
-      gfm: true,
-      headerIds: true, // 确保生成标题ID，便于大纲导航
-      mangle: false
-    })
+    let processedContent = content
     
-    // 净化HTML内容
-    renderedContent.value = DOMPurify.sanitize(rawHtml)
+    const baseUrl = `https://raw.githubusercontent.com/${props.repo}/main/`
+    processedContent = processedContent.replace(
+      /src=["']([^"']+)["']/gi,
+      (match, src) => {
+        if (src.startsWith('http://') || src.startsWith('https://') || src.startsWith('//') || src.startsWith('data:')) {
+          return match
+        }
+        const normalizedSrc = src.replace(/\\/g, '/')
+        const absoluteUrl = baseUrl + normalizedSrc
+        return `src="${absoluteUrl}"`
+      }
+    )
+    
+    const repoUrl = `https://github.com/${props.repo}/blob/main/`
+    processedContent = processedContent.replace(
+      /href=["']([^"']+)["']/gi,
+      (match, href) => {
+        if (href.startsWith('http://') || href.startsWith('https://') || href.startsWith('//') || href.startsWith('#') || href.startsWith('mailto:')) {
+          return match
+        }
+        const normalizedHref = href.replace(/\\/g, '/')
+        const absoluteUrl = repoUrl + normalizedHref
+        return `href="${absoluteUrl}"`
+      }
+    )
+    
+    const rawHtml = md.render(processedContent)
+    
+    let processedHtml = rawHtml
+    
+    processedHtml = processedHtml.replace(
+      /<blockquote>\s*<p>\[!(IMPORTANT|WARNING|NOTE|TIP|CAUTION)\]<br>\s*([\s\S]*?)<\/p>\s*<\/blockquote>/gi,
+      (match, type, content) => {
+        const alertType = type.toLowerCase()
+        return `<div class="github-alert github-alert-${alertType}"><p>${content}</p></div>`
+      }
+    )
+    
+    processedHtml = processedHtml.replace(/<a\s+href="https?:\/\//gi, '<a target="_blank" rel="noopener noreferrer" href="https://')
+    
+    renderedContent.value = DOMPurify.sanitize(processedHtml, {
+      ADD_TAGS: ['details', 'summary'],
+      ADD_ATTR: ['align', 'target', 'rel', 'class']
+    })
   } catch (err) {
     console.error('渲染Markdown失败:', err)
     error.value = '渲染内容时出错'
   }
 }
 
-// 监听repo变化
 watch(() => props.repo, (newRepo) => {
   if (newRepo && newRepo.includes('/')) {
     fetchReadme()
   }
 })
 
-// 组件挂载时获取README
 onMounted(() => {
   if (props.repo && props.repo.includes('/')) {
     fetchReadme()
@@ -178,7 +200,6 @@ onMounted(() => {
   position: relative;
 }
 
-/* 去除边框 */
 .github-readme-renderer,
 .readme-content,
 .markdown-body {
@@ -238,7 +259,6 @@ onMounted(() => {
 </style>
 
 <style>
-/* GitHub风格的Markdown样式 */
 .markdown-body {
   padding: 2rem;
   font-size: 16px;
@@ -311,10 +331,63 @@ onMounted(() => {
 }
 
 .markdown-body blockquote {
-  padding: 0 1em;
+  padding: 0.5em 1em;
   color: var(--vp-c-text-2);
   border-left: 0.25em solid var(--vp-c-divider-light-1);
   margin: 0 0 1em 0;
+}
+
+.markdown-body .github-alert {
+  padding: 0.75em 1em;
+  margin: 1em 0;
+  border-left-width: 0.25em;
+  border-left-style: solid;
+  border-radius: 6px;
+}
+
+.markdown-body .github-alert-important {
+  border-left-color: #0969da;
+  background-color: #ddf4ff;
+}
+
+.markdown-body .github-alert-warning {
+  border-left-color: #bf8700;
+  background-color: #fff8c5;
+}
+
+.markdown-body .github-alert-note {
+  border-left-color: #8250df;
+  background-color: #f3e8ff;
+}
+
+.markdown-body .github-alert-tip {
+  border-left-color: #1a7f37;
+  background-color: #dafbe1;
+}
+
+.markdown-body .github-alert-caution {
+  border-left-color: #cf222e;
+  background-color: #ffebe9;
+}
+
+.dark .markdown-body .github-alert-important {
+  background-color: rgba(56, 139, 253, 0.1);
+}
+
+.dark .markdown-body .github-alert-warning {
+  background-color: rgba(187, 128, 9, 0.1);
+}
+
+.dark .markdown-body .github-alert-note {
+  background-color: rgba(137, 87, 229, 0.1);
+}
+
+.dark .markdown-body .github-alert-tip {
+  background-color: rgba(35, 134, 54, 0.1);
+}
+
+.dark .markdown-body .github-alert-caution {
+  background-color: rgba(207, 34, 46, 0.1);
 }
 
 .markdown-body table {
@@ -353,16 +426,14 @@ onMounted(() => {
   text-decoration: underline;
 }
 
-/* 暗色主题适配 */
-.dark-theme .markdown-body {
+.dark .markdown-body {
   color: var(--vp-c-text-1);
 }
 
-.dark-theme .markdown-body code {
+.dark .markdown-body code {
   background-color: var(--vp-c-bg-soft-down);
 }
 
-/* 适配Vitepress大纲 */
 .markdown-body h1,
 .markdown-body h2,
 .markdown-body h3,
@@ -370,5 +441,43 @@ onMounted(() => {
 .markdown-body h5,
 .markdown-body h6 {
   scroll-margin-top: calc(var(--vp-nav-height) + 32px);
+}
+
+.markdown-body div[align="center"] {
+  text-align: center;
+}
+
+.markdown-body div[align="center"] img {
+  display: inline-block;
+}
+
+.markdown-body .github-alert::before {
+  font-weight: 600;
+  margin-right: 0.5em;
+}
+
+.markdown-body .github-alert-important::before {
+  content: "⚠️ IMPORTANT";
+  color: #0969da;
+}
+
+.markdown-body .github-alert-warning::before {
+  content: "⚠️ WARNING";
+  color: #bf8700;
+}
+
+.markdown-body .github-alert-note::before {
+  content: "📝 NOTE";
+  color: #8250df;
+}
+
+.markdown-body .github-alert-tip::before {
+  content: "💡 TIP";
+  color: #1a7f37;
+}
+
+.markdown-body .github-alert-caution::before {
+  content: "🚨 CAUTION";
+  color: #cf222e;
 }
 </style>
