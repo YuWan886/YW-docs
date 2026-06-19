@@ -10,6 +10,7 @@ cover: https://ypy-uss.yuwan886.top/YW-docs/datapack/53/cover.png
 
 # 小模组
 [**Mod合集**](https://pan.quark.cn/s/4a8dd2826230)
+[**Steam 创意工坊**](https://steamcommunity.com/id/yuwan887/myworkshopfiles?appid=2868840)
 
 ## Show Me Log
 
