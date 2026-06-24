@@ -1,5 +1,5 @@
 ---
-title: YuWanCard
+title: 假如遗物
 tags: 
  - 杀戮尖塔2
  - mod
@@ -8,6 +8,6 @@ updated: 2026-06-24
 cover: https://ypy-uss.yuwan886.top/YW-docs/datapack/53/cover.png
 ---
 
-# YuWanCard
+# 假如遗物
 
 <GitHubReadmeRenderer repo="YuWan886/STS2-WhatIfRelics" />
