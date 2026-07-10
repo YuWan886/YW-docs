@@ -58,31 +58,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/splatoondjn/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/tc/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="喷射战士"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="试炼冠军"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="> **欢迎来到 SplatoonDJN！** > 这是一个在《我的世界》中完整重现的《Splatoon》游戏版本。最多支持 8 名玩家。"  FontFamily="微软雅黑"
+                <TextBlock Text="拥有超过20个职业PvP地图，每个职业都有特殊能力、武器和机制可供选择！ 在6个战场中战斗，成为冠军！"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/splatoondjn.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/tc.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.curseforge.com/minecraft/worlds/splatoondjn-splatoon-in-minecraft-optifine"
+                        EventType="打开网页" EventData="https://www.curseforge.com/minecraft/worlds/trial-champions"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/7a90507bb0e9"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/d3538bfba74f"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -105,31 +105,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/snowy-skirmish/snowy-skirmish.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/ghost-escape/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="雪地冲突"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="逃离幽灵娘"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="> ☃️ .*・ ‧❄。゚ •*・ Snowy Skirmish ・*• ゚。❄ ‧ ・*.☃️ > > > 将休闲打雪仗提升到一个新的水平！ >"  FontFamily="微软雅黑"
+                <TextBlock Text="你发现自己身处未知地域，不知道会遭遇什么。你能设法脱身吗？ 地图上有上锁的门，可以用钥匙打开。 门后面可能有控制面板、发电机、各种物品，也可能什么都没有。 如果你找到了发电机，可以用扳手和装满汽油的油桶修复。 如果你找到了控制面板，可以用钳子撬开它，但不要急着放下杠杆，需要先修复发电机。 该模式适用于1至4人游戏。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/snowy-skirmish.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/ghost-escape.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/snowy-skirmish/"
+                        EventType="打开网页" EventData="https://minecraft-inside.ru/maps/165005-ghost-escape.html"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/05ad4fc53b7d"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/4bfde4b829c7"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -152,31 +152,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/hasf/hasf_cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/bb_2/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="躲猫猫最终版"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="爆友联盟"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="**预告片：** [点击观看预告片](https://www.youtube.com/watch?v=Yq7sqRuyDSc) 你必须使用以下材质包进行游戏：[下载材质包](https://download.mc-packs.net/pack/47f8cdb8cf2a30ff29c409baa89394e1fe1c991a.zip) 建议使用Optifine。 在大厅（树内），你会找到一个压力板。..."  FontFamily="微软雅黑"
+                <TextBlock Text="《爆友联盟》是一款1-2人爆炸挑战游戏，包含以下2种游戏模式： 1. **经典模式** 使用限定数量的TNT炸毁13个不同的建筑 (最后一个结构在完成其他所有结构后解锁) 预计通关时间：20-30分钟 2. **排位模式** 挑战高效炸毁建筑，冲击排行榜"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/hasf.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/bb_2.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/hide-and-seek-1-20-4-3-modes-normal-block-hunt-mob/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/bomb-buddies/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/524f5ec55bac"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/05564dc9f7bf"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -199,31 +199,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/aghanim-labyrinth/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/intervention/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="阿哈利姆的迷宫 2"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="干预行动"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="这是我备受期待的PVE地图续作！原为Dota 2中的自定义模式，《阿哈利姆的迷宫2：连续体谜题》现已在Minecraft中忠实重现。"  FontFamily="微软雅黑"
+                <TextBlock Text="《干预行动》是一款支持**5-12**人参与的PVP对抗游戏。玩家需凭借谋略、创造力与观察力智取对手。通过自定义装备制定战术，同时隐藏自己的配置——因为你的道具仅对自己可见！预判敌人行动以夺取更多分数，最终赢得胜利。 **建议**：游戏过程中使用语音或游戏内聊天功能交流。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/aghanim-labyrinth-2.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/intervention.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/aghanim-s-labyrinth-2-roguelike-pve-map/"
+                        EventType="打开网页" EventData="https://www.curseforge.com/minecraft/worlds/intervention"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/17dd5184e1b5"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/43118a06e636"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -246,31 +246,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/clowns/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/duel-tnt/dt_cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="派出小丑"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="TNT决斗"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《派出小丑》是在色彩缤纷的马戏团中对捉迷藏游戏的独特改编！ 小丑们可以找到增益道具来帮助他们躲藏并为最后一分钟做准备！ 在最后一分钟，所有小丑都会发光，而所有警察都会获得速度提升！"  FontFamily="微软雅黑"
+                <TextBlock Text="是时候以爆炸性的方式与你的朋友们一决高下了！穿上装备，在竞技场中与人战斗。这里没有总冠军，只是一款有趣且友好的竞技场 PvP 游戏。 希望你们喜欢这个爆炸的游戏！ 你能找到所有 11 个职业吗？;) 全新职业—**碎星** 请务必安装资源包！（[链接](https://www.dropbox.com/scl/fi/q2w538pgswq2my9d6xu41/Season9.2.4c_pack.zi..."  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/clowns.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/dt.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.minecraftmaps.com/50458-send-in-the-clowns"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/duel-tnt-realms-published-1-12-and-1-11/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/e0de144996d0"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/e55e73a1fc90"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
