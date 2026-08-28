@@ -58,31 +58,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/tt/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/mimi/mimi_cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="占顶为王"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="模仿者"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《占顶为王》是一张玩家在寺庙或金字塔顶部平台进行PVP的竞技地图！使用独特的魔法物品获得优势，目标是尽可能长时间地留在平台上。 本地图包含： - 丰富的游戏设置选项 - 多种风格的主题场景 - 精美的模型 - 定制的魔法物品系统"  FontFamily="微软雅黑"
+                <TextBlock Text="*哦，你正是我们要找的人！公会急需魔法专家来应对当前的危机……* ---- 传统的捉迷藏地图有一个大问题：在同一张地图上玩过20次后，你就会记住游戏中的每一个方块和藏身之处，这让躲藏者处于极大的劣势，并降低了游戏的可玩性。**模仿者**！为道具狩猎类游戏带来了革命性的概念：**每一个方块都可能成为道具。** 在这款小游戏中，巫师（寻找者）的任务是消灭隐藏在地图中伪装成各种方块的模仿者（躲藏者）。然..."  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/tt.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/mimi.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/temple-topper/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/mimics/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/01606672ba5d"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/03f7dea57c9c"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -105,31 +105,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/hasf/hasf_cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/candy-land/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="躲猫猫最终版"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="糖果大陆"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="**预告片：** [点击观看预告片](https://www.youtube.com/watch?v=Yq7sqRuyDSc) 你必须使用以下材质包进行游戏：[下载材质包](https://download.mc-packs.net/pack/47f8cdb8cf2a30ff29c409baa89394e1fe1c991a.zip) 建议使用Optifine。 在大厅（树内），你会找到一个压力板。..."  FontFamily="微软雅黑"
+                <TextBlock Text="在Minecraft中重温你童年记忆中的广阔棋盘游戏世界——糖果大陆！召集**2-5**名玩家，战胜对手，成为第一个到达终点的人！ 每几轮就会玩一个小游戏，根据你的表现获得奖励！落在挑战格子上，这将决定你是值得前进还是后退！最后，沿途收集和使用物品，这些物品要么帮助你，要么伤害他人！ 除了44个小游戏、20个挑战和18种物品外，还有4个不同的棋盘可供选择："  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/hasf.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/candy-land.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/hide-and-seek-1-20-4-3-modes-normal-block-hunt-mob/"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/candy-land-in-minecraft/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/524f5ec55bac"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/4fdceaf60f25"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -152,31 +152,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/bleps/bleps_cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://cdn.modrinth.com/data/paxRcAGe/images/a8c7d57142a9e2a889b92e585e3cbb80fd8787b4_350.webp" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="Bleps：箭在弦上"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="Atmos"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="想联机游玩？加入我们的服务器：chainsaw.games 安装资源包！（[点击此处](https://www.dropbox.com/scl/fi/zjld163i3d35gmaedhqib/bleps_pack_v1.0.8.zip?rlkey=2i7rdpnm7wj2ecpeicugjacl5&st=eg06yw2n&dl=1)） 由「[[dt|TNT决斗]]」原班人马打造 在这款全新 官方..."  FontFamily="微软雅黑"
+                <TextBlock Text="**Atmos** 是一款完全在原版 Minecraft 中制作的快节奏动作类 Roguelike 游戏。它本质上是一个独立的游戏，灵感来自《Hades》并包含《ULTRAKILL》的一些元素。 --- 穿越各个领域，与挡在你面前的众多敌人战斗。收集遗物、物品、升级，并与数十个试图阻止你的敌人战斗！ "  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/bleps.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/atmos.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/bleps-bow-pvp-official-realm-minigame/"
+                        EventType="打开网页" EventData="https://modrinth.com/modpack/atmos_roguelike"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/76d8b74ff0d8"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/f2842af881a6"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -199,31 +199,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/chunk-defense/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/intervention/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="区块防御"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="干预行动"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《区块防御》回来了！！！ 我更新并添加了很多东西，但这只是一个开始！ 这个版本非常新，我想添加很多内容到地图上，我的计划是逐步添加，这个版本是第四部分，但不用担心，我会在每个部分添加很多新功能、新关卡和新地图，所以如果你完成了第一部分的地图，你可以在第二部分重新开始，每个部分都会为地图添加大量新内容。 如果你是第一次看到这张地图： 那是一个PVE小游戏地图，你需要生存150波致命的怪物，但不用担心..."  FontFamily="微软雅黑"
+                <TextBlock Text="《干预行动》是一款支持**5-12**人参与的PVP对抗游戏。玩家需凭借谋略、创造力与观察力智取对手。通过自定义装备制定战术，同时隐藏自己的配置——因为你的道具仅对自己可见！预判敌人行动以夺取更多分数，最终赢得胜利。 **建议**：游戏过程中使用语音或游戏内聊天功能交流。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/chunk-defense.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/intervention.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/chunk-defense-rework/"
+                        EventType="打开网页" EventData="https://www.curseforge.com/minecraft/worlds/intervention"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/adb33ae2b576"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/43118a06e636"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -246,31 +246,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/fpb/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/enzzo-kebab/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="花盆大作战"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="Enzzo的烤肉店"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="嘿，花儿！快进花盆里来！ 你曾经想过成为一朵花吗？ 如果答案是肯定的，那么你一定会喜欢这个小游戏。在这张地图里，你需要通过桥连接到地图中心的大花盆，然后跳进去。 游戏中共有四支队伍参与比赛。他们可以通过破坏、阻碍道路，或者干脆击倒对手来互相阻碍。 你应该明智地使用游戏币。花盆不仅可以用来购买物品，还可以用来建造建筑。谁先达到跳进大花盆所需的次数，谁就是赢家。"  FontFamily="微软雅黑"
+                <TextBlock Text="在地图上，你可以实现你制作烤肉串的梦想！ 等着你的有很多有趣的顾客以及大量的订单！ 不要犹豫！下载地图，用你的摊位让世界快乐起来！ 祝你玩得开心！:)"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/fpb.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/enzzo-kebab.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://azerusteam.com/map/flower-pot-battle"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/enzzo-kebab/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/5c8bec4e9f1b"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/90de9354a7a5"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
