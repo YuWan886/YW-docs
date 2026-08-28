@@ -165,3 +165,16 @@
     top: -2px;
     margin-right: 4px;
 }
+
+.vp-doc a[href^="https://thunderstore.io/"]:not(:has(img)):before {
+    content: '';
+    background-image: url(/svg/thunderstore.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}

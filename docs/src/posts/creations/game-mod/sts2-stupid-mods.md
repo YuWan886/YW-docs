@@ -1,5 +1,5 @@
 ---
-title: 小模组
+title: 杀戮尖塔2小模组
 tags: 
  - 杀戮尖塔2
  - mod
