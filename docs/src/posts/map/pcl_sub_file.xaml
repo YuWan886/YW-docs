@@ -58,31 +58,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/ftr/ftr_cover.jpg" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/ttt/ttt_cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="给劫掠兽喂食"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="匪镇谍影"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="在这张地图中，两个定居点为了生存正在同一片领地上交战。从当地动物身上获取的资源既可以卖给商人，也可以用来喂养劫掠兽。不过劫掠兽更钟爱用营火烤制的肉——每个定居点的中心地带都燃烧着永恒之火，正是这团火焰维系着营火的长明不熄。"  FontFamily="微软雅黑"
+                <TextBlock Text="**「匪镇谍影」**（Trouble in Terrorist Town，简称TTT）是一款源自《Garry's Mod》的多人在线游戏模式。玩家将被随机分配为以下角色： - **无辜者**：需存活并找出叛徒。 - **叛徒**：暗中消灭所有非叛徒玩家。 - **侦探**：拥有特殊工具协助揭露叛徒。 游戏核心为**信任、欺骗与推理**，玩家需通过策略与沟通取胜。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/ftr.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/ttt.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://azerusteam.com/map/feed-the-ravager"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/rrouble-in-terrorist-town/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/bf158b3e255e"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/a2346444ef67"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -105,31 +105,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/enzzo-kebab/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/splatoondjn/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="Enzzo的烤肉店"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="喷射战士"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="在地图上，你可以实现你制作烤肉串的梦想！ 等着你的有很多有趣的顾客以及大量的订单！ 不要犹豫！下载地图，用你的摊位让世界快乐起来！ 祝你玩得开心！:)"  FontFamily="微软雅黑"
+                <TextBlock Text="> **欢迎来到 SplatoonDJN！** > 这是一个在《我的世界》中完整重现的《Splatoon》游戏版本。最多支持 8 名玩家。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/enzzo-kebab.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/splatoondjn.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/enzzo-kebab/"
+                        EventType="打开网页" EventData="https://www.curseforge.com/minecraft/worlds/splatoondjn-splatoon-in-minecraft-optifine"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/90de9354a7a5"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/7a90507bb0e9"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -152,31 +152,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/clowns/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/aghanim-labyrinth/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="派出小丑"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="阿哈利姆的迷宫 2"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《派出小丑》是在色彩缤纷的马戏团中对捉迷藏游戏的独特改编！ 小丑们可以找到增益道具来帮助他们躲藏并为最后一分钟做准备！ 在最后一分钟，所有小丑都会发光，而所有警察都会获得速度提升！"  FontFamily="微软雅黑"
+                <TextBlock Text="这是我备受期待的PVE地图续作！原为Dota 2中的自定义模式，《阿哈利姆的迷宫2：连续体谜题》现已在Minecraft中忠实重现。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/clowns.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/aghanim-labyrinth-2.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.minecraftmaps.com/50458-send-in-the-clowns"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/aghanim-s-labyrinth-2-roguelike-pve-map/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/e0de144996d0"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/17dd5184e1b5"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -199,31 +199,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/idol_clash/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/sp/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="偶像对决"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="激浪朋克"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《偶像对决》是对KitPVP体验的全新诠释，拥有多样化的可玩角色阵容，每个角色都有自己独特的技能需要学习和掌握。从基于Minecraft生物的角色阵容中选择，加入这场对决吧！"  FontFamily="微软雅黑"
+                <TextBlock Text="《激浪朋克》是一款设定在独特朋克卡通奇幻世界中的高能量快节奏PvP游戏！受热门游戏《UpGun》启发，这个基于Minecraft 1.21.5版本打造的地图将带您进入混乱的自由混战（FFA）。当倒计时结束时，淘汰数最多的玩家将成为最终赢家！"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/idol_clash.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/sp.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/idol-clash"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/splashpunk"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/4b2d3ab926c6"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/6ef8869b6f07"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -246,31 +246,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/parkourse/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/tc/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="跑酷派对"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="试炼冠军"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="建造一个跑酷赛道并挑战你的朋友。如果你自己或别人的跑酷失败，就会失去一条命。使用自定义方块来每次创建一个独特的赛道。 查看我们的Discord服务器获取更多自定义地图和小游戏！https://discord.gg/cVPJnDBMEy 由_DVS、Celisio、Spy_Guy1、Gamerrizz、ValkinPlaysMC、sean_built_stuff、AmyMialee、notkeebu..."  FontFamily="微软雅黑"
+                <TextBlock Text="拥有超过20个职业PvP地图，每个职业都有特殊能力、武器和机制可供选择！ 在6个战场中战斗，成为冠军！"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/parkourse.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/tc.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.curseforge.com/minecraft/worlds/parkourse-party"
+                        EventType="打开网页" EventData="https://www.curseforge.com/minecraft/worlds/trial-champions"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/8e2e741ba08a"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/d3538bfba74f"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
