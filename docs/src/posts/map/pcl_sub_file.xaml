@@ -58,31 +58,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/mcp2/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/p/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="MC派对2"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="柱域争锋"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="**Minecraft Party 2** 是一款受《马里奥派对》启发的 4-10 人游戏，包含以下特色： - **100 种小游戏**： - 34 个自由对抗小游戏 - 14 个 2v2 小游戏 - 14 个 1v3 小游戏 - 9 个战斗小游戏 - 7 个金币小游戏 - 14 个决斗小游戏 - 8 个迷你决斗小游戏 - **30+ 种可使用道具** - **15 张独特游戏地图** - **标..."  FontFamily="微软雅黑"
+                <TextBlock Text="玩家在动态缩小的屏障区域内对抗，通过收集物品、触发事件和策略生存，最终击败对手或团队获胜。"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/mcp2.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/p.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/minecraft-party-2-6030280/"
+                        EventType="打开网页" EventData="https://minecraft-inside.ru/maps/176190-pillars-ur-studio.html/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData=""
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/1fe4b0294747"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -105,31 +105,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/hmw/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/tt/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="蜂蜜导弹战争"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="占顶为王"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="一场颠覆传统的经典导弹大战！向好友发射TNT活塞飞行器，炸穿他们的城墙！"  FontFamily="微软雅黑"
+                <TextBlock Text="《占顶为王》是一张玩家在寺庙或金字塔顶部平台进行PVP的竞技地图！使用独特的魔法物品获得优势，目标是尽可能长时间地留在平台上。 本地图包含： - 丰富的游戏设置选项 - 多种风格的主题场景 - 精美的模型 - 定制的魔法物品系统"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/hmw.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/tt.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.minecraftmaps.com/48564-honey-missile-wars"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/temple-topper/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/e2469cb81409"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/01606672ba5d"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -152,31 +152,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/idol_clash/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/enzzo-kebab/cover_2.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="偶像对决"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="Enzzo的烤肉店 2"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="《偶像对决》是对KitPVP体验的全新诠释，拥有多样化的可玩角色阵容，每个角色都有自己独特的技能需要学习和掌握。从基于Minecraft生物的角色阵容中选择，加入这场对决吧！"  FontFamily="微软雅黑"
+                <TextBlock Text="嘿！🙂 我们很高兴向您介绍我们的项目“Enzzo Kebab” 在这张地图上，你可以实现制作烤肉串的梦想！ 很多有趣的客户和大量的订单正在等着您！ 别再等了！ 下载地图，用你的烤肉摊让世界变得更快乐！ 玩得开心！🙂 这张地图是一款带有喜剧元素的游戏。它旨在带来趣味和乐趣，所以请不要太认真。我们的目的仅仅是娱乐——我们无意以任何方式冒犯任何人！"  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/idol_clash.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/enzzo-kebab-2.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/idol-clash"
+                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/enzzo-kebab-2-minecraft-kebab-game-map-1-20-4/"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/4b2d3ab926c6"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/50eb23c21be3"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
@@ -246,31 +246,31 @@
             
             <!-- 左侧图片区域 -->
             <Border Grid.Column="0" Width="120" Height="68"  >
-                <Image Source="https://ypy-uss.yuwan886.top/YW-docs/map/winged/cover.png" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="https://cdn.modrinth.com/data/paxRcAGe/images/a8c7d57142a9e2a889b92e585e3cbb80fd8787b4_350.webp" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
             
             <!-- 右侧内容区域 -->
             <StackPanel Grid.Column="1" Margin="12,0,0,0">
                 <!-- 标题 -->
-                <TextBlock Text="空翼对决"  FontWeight="SemiBold" FontFamily="微软雅黑"
+                <TextBlock Text="Atmos"  FontWeight="SemiBold" FontFamily="微软雅黑"
                            Foreground="#111827" TextWrapping="Wrap" MaxHeight="40" Margin="0,0,0,8"/>
                 
                 <!-- 描述 -->
-                <TextBlock Text="驾驶一架飞机，在卡通风格的热带天空中翱翔，与其他飞行团队一较高下，看谁才是更出色的飞行员！在这款充满疯狂瞬间的飞机对战小游戏中，与好友一起让混乱尽情上演吧。"  FontFamily="微软雅黑"
+                <TextBlock Text="**Atmos** 是一款完全在原版 Minecraft 中制作的快节奏动作类 Roguelike 游戏。它本质上是一个独立的游戏，灵感来自《Hades》并包含《ULTRAKILL》的一些元素。 --- 穿越各个领域，与挡在你面前的众多敌人战斗。收集遗物、物品、升级，并与数十个试图阻止你的敌人战斗！ "  FontFamily="微软雅黑"
                            Foreground="#6b7280" TextWrapping="Wrap" MaxHeight="36" TextTrimming="CharacterEllipsis"/>
                 
                 <!-- 按钮区域 -->
                 <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                     <local:MyTextButton Text="查看详情"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/winged.html"
+                        EventType="打开网页" EventData="https://docs.yw-games.top/posts/map/done/atmos.html"
                         Background="#e5e7eb" Foreground="#374151" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="查看原址"  FontWeight="Medium" Padding="10,4" Margin="0,0,8,0"
-                        EventType="打开网页" EventData="https://www.planetminecraft.com/project/winged-1-19-2/"
+                        EventType="打开网页" EventData="https://modrinth.com/modpack/atmos_roguelike"
                         Background="#fee2e2" Foreground="#b91c1c" 
                         BorderThickness="0"/>
                     <local:MyTextButton Text="点击下载"  FontWeight="Medium" Padding="10,4"
-                        EventType="打开网页" EventData="https://pan.quark.cn/s/45f7a02f30ca"
+                        EventType="打开网页" EventData="https://pan.quark.cn/s/f2842af881a6"
                         Background="#d1fae5" Foreground="#065f46" 
                         BorderThickness="0"/>
                 </StackPanel>
