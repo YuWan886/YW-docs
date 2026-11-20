@@ -1,9 +1,10 @@
 name: 更新每周地图推荐
 
 on:
-  schedule:
-    # 每周五北京时间8点运行 (UTC+8)
-    - cron: '0 0 * * 5'
+  # 定时触发已关闭，如需恢复请取消下面三行注释
+  # schedule:
+  #   # 每周五北京时间8点运行 (UTC+8)
+  #   - cron: '0 0 * * 5'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
